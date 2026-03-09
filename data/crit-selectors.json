@@ -1,0 +1,951 @@
+{
+  "name": "Crit Selectors",
+  "type": "facility",
+  "flags": {
+    "dfreds-convenient-effects": {
+      "isConvenient": true,
+      "isBackup": false,
+      "isViewable": true,
+      "folderColor": ""
+    }
+  },
+  "img": "modules/dfreds-convenient-effects/images/magic-palm.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "crit-selectors",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": null
+    },
+    "level": 5,
+    "order": "",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": "",
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "basic",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Crit Fail Magic",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критический промах магической атакой</p>",
+      "_id": "bMk2ZVtyEVyd85lM",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Fail Magic\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772999597794,
+        "modifiedTime": 1773002406892,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Actual",
+      "img": "modules/crit-effects-cauldron/icons/crit_fail.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-actual",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-crit-fail-magic",
+            "ce-crit-fail-melee",
+            "ce-crit-fail-range"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Выберите тип вашей атаки.</p>",
+      "_id": "3GlVh04sv1j1CNBd",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773001600579,
+        "modifiedTime": 1773005053133,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail",
+      "img": "modules/crit-effects-cauldron/icons/crit_fail.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Активируйте для применения эффекта критического промаха.</p>",
+      "_id": "4QMWnuPOtbeWIQiR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritLogicBase \"Crit Fail Actual\"",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773001969159,
+        "modifiedTime": 1773002051792,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range",
+      "img": "modules/crit-effects-cauldron/icons/range_fail.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критический промах физической атакой дальнего боя</p>",
+      "_id": "JPEGfe4GzUGRGSyR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Fail Range\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773004815145,
+        "modifiedTime": 1773005024783,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критический промах физической атакой ближнего боя</p>",
+      "_id": "v0YZjOsKC1lDtSdg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Fail Melee\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773004873138,
+        "modifiedTime": 1773005013449,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Success Magic",
+      "img": "modules/crit-effects-cauldron/icons/magic_success.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-success-magic",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критическое попадание магической атакой</p>",
+      "_id": "Jk1VZIsoVKP3g4JW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Success Magic\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773010088961,
+        "modifiedTime": 1773010199683,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Success Melee",
+      "img": "modules/crit-effects-cauldron/icons/melee_success.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-success-melee",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критическое попадание физической атакой ближнего боя</p>",
+      "_id": "p9Tl2nOMJnfukjjQ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Success Melee\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773010205491,
+        "modifiedTime": 1773010340794,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Success Range",
+      "img": "modules/crit-effects-cauldron/icons/range_success.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-success-range",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Критическое попадание физической атакой дальнего боя</p>",
+      "_id": "n3QD6iKRJLpwn724",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritEffectSelector \"Crit Success Range\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773010268772,
+        "modifiedTime": 1773010353573,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Success Actual",
+      "img": "modules/crit-effects-cauldron/icons/crit_success.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-success-actual",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-crit-success-magic",
+            "ce-crit-success-melee",
+            "ce-crit-success-range"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Выберите тип вашей атаки.</p>",
+      "_id": "MCsNOLbqb4CDUDB3",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773010359836,
+        "modifiedTime": 1773010439417,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Success",
+      "img": "modules/crit-effects-cauldron/icons/crit_success.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-success",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p>Активируйте для применения эффекта критического попадания.</p>",
+      "_id": "EDwZsT0HiYRmzNSl",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "CritLogicBase \"Crit Success Actual\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.Gd0gBtFgQgBwFe6j",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1773010458854,
+        "modifiedTime": 1773010528575,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tihij-mir-v-poiskah-magii",
+      "uuid": "Item.Gd0gBtFgQgBwFe6j",
+      "coreVersion": "13.351",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.3"
+    },
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.3",
+    "createdTime": 1772999592357,
+    "modifiedTime": 1772999592357,
+    "lastModifiedBy": "qVhk7NMxfSxiY964"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

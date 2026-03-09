@@ -1,0 +1,4271 @@
+{
+  "name": "Crit Fail Melee",
+  "type": "facility",
+  "flags": {
+    "dfreds-convenient-effects": {
+      "isConvenient": true,
+      "isBackup": false,
+      "isViewable": true,
+      "folderColor": ""
+    }
+  },
+  "img": "modules/dfreds-convenient-effects/images/magic-palm.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "crit-fail-melee",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": null
+    },
+    "level": 5,
+    "order": "",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": "",
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "basic",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Crit Fail Melee 01-02 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_01_02.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-01-02-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-weapon-not-dropped-(fme01,-fme02)",
+            "ce-weapon-dropped-(fme01,-fme02)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Выберите, может ли ваше текущее оружие быть физически брошено.</span></p>",
+      "_id": "EmmUg0WbEFqayhJw",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772533116419,
+        "modifiedTime": 1772832741747,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 03-04 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_03_04.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-03-04-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вместо цели вы попадаете по другому существу в зоне досягаемости вашего оружия. Киньте d100. В 10% случаев (1-10) это критическое попадание по союзнику. В 70% случаев (11-80) это обычное попадание по союзнику. В 15% случаев (81-95) это попадание по другому врагу. В 5% случаев это попадание по себе. Если подходящей по типу цели нет в зоне вашей досягаемости, эффект не срабатывает.</span></p>",
+      "_id": "4HmqFqHQURHXkpKE",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772535328596,
+        "modifiedTime": 1772630186998,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 05-06 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_05_06.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-05-06-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы разочарованы своими способностями. До конца своего следующего хода вы получаете помеху на все свои атаки.</span></p>",
+      "_id": "z37sSnnP2smrpxSY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772535404262,
+        "modifiedTime": 1772630199003,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 07-08 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_07_08.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-07-08-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "countDeleteDecrement",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы совершили очень неудачное движение, повредив руку, используемую для атаки. Вы получаете накапливаемый штраф -N к броскам Атаки и урона. Магическое лечение, зелье лечения или использование любого иного предмета снаряжения или способности, которые способны восстанавливать хиты, оканчивают эффект. Длинный отдых уменьшает эффект на 1.<br /><br />N - количество стеков данного эффекта.</span></p>",
+      "_id": "HeBU2pcuEpNBDSeB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772541876052,
+        "modifiedTime": 1772723966637,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 09-10 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_09_10.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-09-10-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Оружие одскочило прямо вам в лицо. Вы получаете состояние Ослеплён [Blinded] до конца вашего следующего хода.</span></p>",
+      "_id": "XaHxITsudazKlHA7",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772542318306,
+        "modifiedTime": 1772724104755,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 11-12 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_11_12.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-11-12-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака настолько нелепа, что вдохновляет вашего противника. Существо, которое вы атаковали получает накапливаемый бонус +1 к броскам Атаки и урона. Бонус действует до длительного отдыха.<br /><br />Итоговое значение бонуса равно количеству стеков эффекта.</span></p>",
+      "_id": "eQpgTUwFSaEjXjlD",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772543474950,
+        "modifiedTime": 1772724219800,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 13-14 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_13_14.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-13-14-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-crit-fail-melee-11-12-(target)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака настолько нелепа, что вдохновляет ваших противников. Враждебные существа помимо цели атаки, которые видели эту атаку, получают Преимущество [Advantage] на следующий бросок атаки.</span></p>",
+      "_id": "EbFSD7lnXM0C2r6c",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectByVisionOfTargetAndRelation \"Attack Advantage (FMe13, FMe14)\" friend",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772612281317,
+        "modifiedTime": 1772724371582,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 15-16 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_15_16.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-15-16-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">При попытке атаковать вы повредили своё оружие. Оружие получает накапливаемый штраф -1 к броскам Атаки и урона. Этот штраф длится до момента, пока оружие не будет отремонтировано заклинанием Починка [Mending], с помощью Инструментов кузнеца или у кузнеца в городе, или до момента, когда здоровье цели вновь поднимется до 100% (для природного оружия (например, когтей)).</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br />Итоговый штраф (если каждый раз применялся к одному оружию) равен количеству стеков этого эффекта.</span></p>",
+      "_id": "HT8gWzbcTvBuMVwR",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772617961028,
+        "modifiedTime": 1772725006995,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 17-18 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_17_18.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-17-18-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В попытках напугать противников, вы пытаетесь провести сложный перуэт. Делая это, вы подставляетесь под удар. Существо, которое вы атаковали, может потратить реакцию, чтобы совершить по вам Атаку по возможности. Если существо не хочет тратить реакцию или уже потратило реакцию, ничего не происходит.</span></p>",
+      "_id": "G1SO2nfNzoR0Ei8Y",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772618114214,
+        "modifiedTime": 1772630571428,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 19-20 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_19_20.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-19-20-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В попытках напугать противников, вы пытаетесь провести сложный перуэт. Делая это, вы подставляетесь под удар. Одно вражеское существо может потратить реакцию, чтобы совершить по вам Атаку. Если ни одно существо не хочет тратить реакцию или уже потратило реакцию, ничего не происходит.</span></p>",
+      "_id": "7Blc9OtjSilb4QjU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772618219577,
+        "modifiedTime": 1772630589223,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 21-22 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_21_22.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-21-22-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вам кажется, что противник отбил ваш удар одним лишь своим взглядом. Вы Напуганы [Frightened] атакованным вами существом. В конце каждого своего хода вы можете попытаться пройти проверку Мудрости СЛ: 8 + ваш бонус попадания этим оружием, чтобы окончить эффект. Вы проходите эту проверку с преимуществом, если не видите цель.</span></p>",
+      "_id": "YHRtx9EEqblKHfjQ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772618303114,
+        "modifiedTime": 1772725290214,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 23-24 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_23_24.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-23-24-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-crit-fail-melee-21-22-(you)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">До конца своего следующего хода вы должны двигаться максимально далеко от цели, при этом не причиняя себе вреда (например, не спрыгивая в лаву и используя действие Отход при необходимости).</span></p>",
+      "_id": "UJ4knE7pSS2IUtfE",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772618508647,
+        "modifiedTime": 1772725658328,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 25-26 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_25_26.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-25-26-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Из-за потери баланса при этом ударе, следующая атака по вам будет игнорировать ваш модификатор ловкости при расчёте вашего КД.</span></p>",
+      "_id": "FJq84ROKLlGoq1wu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772631128286,
+        "modifiedTime": 1772725856099,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 27-28 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_27_28.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-27-28-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-tired"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Раздосадованные таким глупым промахом, вы совершаете ещё одну атаку этим оружием по цели. Эта атака не может быть критической. Истощив на это все свои силы, ваша скорость становится 0 до конца вашего следующего хода. Всё это время вы не можете использовать Действие, Бонусное действие и Реакцию.</span></p>",
+      "_id": "eKvf5siJ9ywpE3xO",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772631603358,
+        "modifiedTime": 1772726092370,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 29-30 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_29_30.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-29-30-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Чтобы избежать подобных казусов, вы начинаете действовать осторожнее. В течение минуты урон ваших атак уменьшается на [Слабый]. Эффект применяется только к первой атаке за ход. В случае, если величина урона получается отрицательной, вместо этого цель получает временный хиты (до конца Длинного отдыха). Эффект заканчивается раньше в случае вашего критического попадания.</span></p>",
+      "_id": "KgN2j5NZMZRF3O01",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772631955279,
+        "modifiedTime": 1772632040021,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 31-32 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_31_32.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-31-32-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-prone"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы теряете равновесие и Падаете ничком [Prone]. До конца этого хода ваша скорость равна 0.</span></p>",
+      "_id": "yppRkJbOrGnrT7p9",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772632063379,
+        "modifiedTime": 1772632126021,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 33-34 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_33_34.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-33-34-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака приводит вас в Смятение [Confusion] с эффектом похожим на эффект одноимённого заклинания (без спасбросков и атака совершается текущим оружием). Этот эффект действует 1 минуту и не поддерживается Концентрацией. Этот эффект пропадает, если вы выкинете 9-10 по таблице Поведения (в описании заклинания).<br /><br /><em>Вы не можете совершать Бонусные действия и Реакции и в начале каждого своего хода должны бросить 1к10, чтобы определить своё поведение в этом ходу согласно следующей таблице.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>1 Вы не можете совершать действий и используете всё своё перемещение для движения в направлении, определяемом броском 1к4: 1 - север; 2 - восток; 3 - юг; 4 - запад.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>2-6 Вы не двигаетесь и не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>7-8 Вы не двигаетесь и совершаете действие Атака, делая одну атаку против случайного существа в пределах досягаемости. Если в пределах досягаемости нет существ, вы не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>9-10 Эффект заканчивается.</em></span></p>",
+      "_id": "mr18eLtQsuMfz8PC",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772632605764,
+        "modifiedTime": 1772727459345,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 35-36 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_35_36.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-35-36-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Собственная бесполезность временно приводит вас в состояние бешенства. Вы должны рандомно выбрать цель в досягаемости своего оружия. В порыве бешенства вы размахиваете своим оружием безо всякой системы. В следующий свой ход Бросок атаки будет совершён с Помехой, также ухудшите свою кость на 1 класс (замените все d4 на 1, d6 на d4, d8 на d6, d10 на d8, а d12 на d10). Если в досягаемости нет ни одного враждебного существа, выберите союзное. Если нет ни одного вообще, выберете ближайшее враждебное и идите к нему прежде чем совершить атаку. Эффект действует до конца вашего следующего хода.</span></p>",
+      "_id": "lqEGjZB5w1WrdKsu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772632680894,
+        "modifiedTime": 1772632747688,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 37-38 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_37_38.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-37-38-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака серьёзно ранит вас. Вы должны совершить спасбросок Телосложения (Сл равна 8 + ваш бонус попадания этим оружием), при провале вы зарабатываете эффект кровотечения и получаете [Слабый] некротического урона в начале каждого своего хода. Вы можете повторять этот спасбросок в конце каждого своего хода, оканчивая эффект при успехе. Этот эффект не действует на конструктов, нежить, растения, слизь и элементалей и не способен убить существо, снижая его хиты максимум до 1. Кровотечение может быть устранено магическим лечением, зельем лечения или любым иным предметом снаряжения или способностью, которые способны восстанавливать хиты.</span></p>",
+      "_id": "PgBv75eubnJ4NDyI",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772632769173,
+        "modifiedTime": 1772632835737,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 39-40 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_39_40.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-39-40-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака развлекла какое-то божество, оно решает отплатить шуткой за шутку. Вы получаете состояние Благословение [Bless] с эффектом одноимённого заклинания. В течение 1 минуты, если вы совершаете бросок атаки или спасбросок, можете добавить 1d4 к результату броска. Если на вас уже есть этот эффект, его длительность сбрасывается до 1 минуты. Этот эффект может существовать параллельно с эффектом заклинания Благословение [Bless], вы получаете преимущество от обоих эффектов. Этот эффект не требует Концентрации для поддержания.</span></p><p></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Также на время действия этого эффекта всё ваше оружие превращается в резиновую или деревянную (детскую) версию себя же и наносит 1 дробящего урона при попадании (модификатор характеристики не добавляется).</span></p>",
+      "_id": "3tyE7KWpHte327en",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 5,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 5,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772632994286,
+        "modifiedTime": 1772633187601,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 41-42 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_41_42.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-41-42-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы убеждаете себя в том, что всё дело в том, что всё дело в типе наносимого вам урона, поэтому перестаёте от него защищаться. Ближайшая успешная атака данного типа по вам будет критической.</span></p>",
+      "_id": "r2rIlRWs55AUDJur",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772633321369,
+        "modifiedTime": 1772633368377,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 43-44 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_43_44.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-43-44-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы так сильно огорчены промахом, что получаете накапливаемый штраф -2 * N к Мудрости. Штраф действует до конца Длинного отдыха. В случае, если мудрость опускается до 4, вы теряете возможность отличать союзников от противников. В таком случае каждый ход цель для вас выбирает случайным образом мастер.<br /><br />N - количество стеков данного эффекта.</span></p>",
+      "_id": "M6WpXWHOF6hSTksx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772633606483,
+        "modifiedTime": 1772728257841,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 45-46 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_45_46.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-45-46-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Попав себе по голове, вы на мгновение теряете понимание происходящего. До конца своего следующего хода вы атакуете случайное существо в досягаемости (включая союзников).</span></p>",
+      "_id": "M5CRdutd5IjN6txj",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772633723010,
+        "modifiedTime": 1772633766337,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 47-48 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_47_48.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-47-48-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Неудачное движение при попытке удара повреждает ваши внутренние органы. Каждый раз, когда вы в бою пытаетесь выполнить Действие, перед этим вы должны совершить спасбросок Телосложения (Сл равна 8 + ваш бонус попадания этим оружием). При провале вы теряете своё Действие и не можете совершать Реакции до конца своего следующего хода. При трёх успехах подряд, эффект приостанавливается до конца боя. Вы можете повторять этот спасбросок один раз по окончании Долгого отдыха, оканчивая этот эффект на себе при успехе.</span></p>",
+      "_id": "9kiYDITu795zqi5U",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772633782565,
+        "modifiedTime": 1772633816954,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 49-50 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_49_50.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-49-50-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы вложили в удар очень много силы, но противник увернулся, поэтому теперь, пытаясь восстановить равновесие, вы продвигаетесь (через клетку цели) на 10 футов по направлению удара. Если за целью находится другое существо, то и вы, и то существо оказываетесь лежащими ничком [Prone] в этой клетке. Если за целью находится непроходимая клетка, то вы останавливаетесь в клетке с целью, и вы, и цель оказываетесь лежащими ничком [Prone]. Также в этом случае вы получаете [Средний] дробящего урона от удара о препятствие.</span></p>",
+      "_id": "FJalUBTzkBXJnFHN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772633857391,
+        "modifiedTime": 1772633898220,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 51-52 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_51_52.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-51-52-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-hideous-laughter-(crit-source)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Все существа (как дружественные, так и враждебные) способные видеть эту атаку (включая вас) оказываются под действием эффекта, аналогичного заклинанию Жуткий смех Таши [Tasha's hideous laughter], включая изначальный Спасбросок. При этом концентрация для поддержания эффекта не требуется. Сложность Спасбросков равна 8 + ваш бонус попадания этим оружием. Вы совершаете эти Спасброски с Помехой.</span></p>",
+      "_id": "LgL63r18HYKIpQiM",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectByVisionOfTargetAndRelation \"Hideous Laughter (Crit)\" all",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772708744009,
+        "modifiedTime": 1772728681597,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 53-54 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_53_54.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-53-54-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-weapon-dropped-(fme53,-fme54)",
+            "ce-weapon-not-dropped-(fme53,-fme54)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Выберите, может ли ваше текущее оружие быть физически брошено.</span></p>",
+      "_id": "HZJn2Xczz7VhNlzG",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772715571240,
+        "modifiedTime": 1772730170496,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 55-56 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_55_56.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-55-56-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов до конца Длинного отдыха.</span></p>",
+      "_id": "sLveeCmOOpkAheKd",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772717919241,
+        "modifiedTime": 1772718030992,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 57-58 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_57_58.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-57-58-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов сразу же, а также в начале каждого её хода в течение минуты. Временные хиты, полученные таким образом, действуют до конца Длинного отдыха.</span></p>",
+      "_id": "BYeaTNtIGlt72efD",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772718053664,
+        "modifiedTime": 1772718097568,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 59-60 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_59_60.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-59-60-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака заставляет вас замешкаться. Вы не можете совершать Реакции до конца своего следующего хода. В свой следующий ход вы можете совершить только или Действие, или Бонусное действие, но не то и другое вместе.</span></p>",
+      "_id": "wH4H6vDom4XHfD6b",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772718116263,
+        "modifiedTime": 1772718161792,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 61-62 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_61_62.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-61-62-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "startEveryTurn",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вам так стыдно, что вы промахнулись, что вы концентрируете все свои усилия на точности. Прямо сейчас, а также в течение ближайшей минуты в начале каждого хода вы получаете накапливаемый бонус +1 к попаданию и (также накапливаемый) штраф -1 к урону. Также вы не добавляете бонус от характеристики при подсчёте урона. По завершению минуты эффект заканчивается.<br /><br />Результирующий эффект равен количеству стеков эффекта \"Accuracy With Less Damage\".</span></p>",
+      "_id": "pkRx8EBLl8LHwLQI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectWithOriginal \"Accuracy With Less Damage\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772718226870,
+        "modifiedTime": 1772830056253,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 63-64 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_63_64.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-63-64-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы решаете, что это оружие вас недостойно и до конца боя его не используете. Если у вас есть другое оружие, используйте его. Если другого оружия нет, то постарайтесь его добыть (поднять с земли, отобрать у противника). В крайнем случае у вас есть безоружная атака.</span></p>",
+      "_id": "I7Sk7hrinQO93aOG",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772719834625,
+        "modifiedTime": 1772719903165,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 65-66 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_65_66.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-65-66-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы получаете штраф -2 КД до конца своего следующего хода, т.к. отвлеклись на свою неудачу.</span></p>",
+      "_id": "itBg3M0zZz1Tx3C9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772719969234,
+        "modifiedTime": 1772725868547,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 67-68 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_67_68.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-67-68-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы дезориентированы, поэтому вы не можете совершать Реакции до начала своего следующего хода.</span></p>",
+      "_id": "Ek42XXVrsm51I65u",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720068804,
+        "modifiedTime": 1772720131481,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 69-70 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_69_70.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-69-70-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы дезориентированы, поэтому вы совершаете с Помехой все спасброски до конца своего следующего хода.</span></p>",
+      "_id": "HP1S7jezHrBM3B3J",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720147196,
+        "modifiedTime": 1772720262855,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 71-72 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_71_72.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-71-72-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы сильно дезориентированы, поэтому до конца своего следующего хода вы совершаете с Помехой все спасброски и не можете совершать Реакции.</span></p>",
+      "_id": "qMkKIGRIKiAWDLd2",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720276945,
+        "modifiedTime": 1772720320424,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 73-74 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_73_74.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-73-74-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы очень сильно дезориентированы, поэтому до конца своего следующего хода вы совершаете с Помехой все спасброски, не можете совершать Реакции, а также можете использовать либо Действие, либо Бонусное действие, но не то и другое вместе.</span></p>",
+      "_id": "Kkw3Rz16itj5MMB9",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720356449,
+        "modifiedTime": 1772720429220,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 75-76 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_75_76.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-75-76-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша ошибка подорвала вашу веру в себя. Получите +1 степень истощения.</span></p>",
+      "_id": "ih7KCUofroVAPMkv",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720449206,
+        "modifiedTime": 1772720573857,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 77-78 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_77_78.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-77-78-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте d20. Если снова выпала 1, вы так неудачно ударились, пытаясь совершить удар, что ваши ХП опустились до 1. В противном случае получите [Средний] урон от своего оружия.</span></p>",
+      "_id": "GweUQLq8Dtajfy8J",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720591601,
+        "modifiedTime": 1772720634245,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 79-80 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_79_80.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-79-80-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте кости и посчитайте урон от стандартного попадания. Если этого урона хватило бы, чтобы довести ХП цели до 0, это настолько растраивает вас, что вам становится всё равно на происходящее: вы становитесь безразличны ко всем враждебным существам. Это безразличие оканчивается в отношении конкретного существа, если вы атакованы этим существом или вам причинён вред заклинанием. В противном случае вы огорчаетесь не так сильно и вы становитесь безразличны лишь к существу, которое вы пытались атаковать.</span></p>",
+      "_id": "1FuZSIAD8T5xbNyZ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720719543,
+        "modifiedTime": 1772720764828,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 81-82 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_81_82.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-81-82-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы совершенно неуверены в себе. В течение минуты в начале своего хода киньте d6. Если на кубе выпало 1 - 2, вы пытаетесь выйти из боя, используя Рывок или Отход для этого. Вы можете получать урон, если примите такое решение. Если выпало 3 - 6, вы сами принимаете решение, как действовать.</span></p>",
+      "_id": "NbHMnlxZzb8PZA6L",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720798914,
+        "modifiedTime": 1772720864949,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 83-84 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_83_84.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-83-84-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы немного разочарованы собой. Получите [Слабый] психического урона.</span></p>",
+      "_id": "fNe62t27l5rSXMhK",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720877398,
+        "modifiedTime": 1772720927704,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 85-86 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_85_86.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-85-86-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы разочарованы собой. Получите [Средний] психического урона.</span></p>",
+      "_id": "y12GDdNYdgj0bCDB",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772720945603,
+        "modifiedTime": 1772721006881,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 87-88 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_87_88.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-87-88-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы сильно разочарованы собой. Получите [Сильный] психического урона.</span></p>",
+      "_id": "SHqkCwAoEIJiVnbg",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721050250,
+        "modifiedTime": 1772721089328,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 89-90 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_89_90.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-89-90-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Промах заставляет вас переосмыслить свою жизнь. До конца длинного отдыха ваше мировоззрение меняется на противоположное. Ваши друзья при этом всё ещё ваши друзья.</span></p>",
+      "_id": "svx3HI0Dfxsqw4Wp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721097493,
+        "modifiedTime": 1772721136722,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 91-92 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_91_92.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-91-92-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">При парировании вашей атаки цель бьёт вас по жизненно важным органам. Количество ваших максимальных хитов уменьшается на [Сильный]. Другое существо может позаботиться об этих ранах, совершая проверку Мудрости (Медицина) (Сл равна 8 + ваш бонус попадания этим оружием) каждые 24 часа на Долгом отдыхе. При успехе верните себе столько единиц максимальных хитов, сколько выпадет на кости ваших хитов (кость хитов при этом не тратится). Количество максимальных хитов не может превысить максимум ваших хитов до применения данного эффекта. Магическое лечение как минимум 6 уровня, такое как Полное исцеление [Heal] и Регенерация [Regenerate], полностью устраняют этот эффект, возвращая максимальное количество ваших хитов на текущем уровне.</span></p>",
+      "_id": "bvETSWmDkMIHVZuH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721183365,
+        "modifiedTime": 1772721239728,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 93-94 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_93_94.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-93-94-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы неуверены в себе. После этой атаки следующий урон, который вы получите, конвертируется 1 к 1 в очки неуверенности. Эти очки могут накапливаться. В следующий раз, когда вы попадаете атакой по любой цели, если количество ваших накопленных очков неуверенности больше 0, вы должны уменьшить наносимый этой цели урон на количество, не превышающее имеющихся у вас очков неуверенности. Соответствующее количество очков неуверенности при этом тратится. Все имеющиеся у вас очки неуверенности пропадут на Долгом отдыхе.</span></p>",
+      "_id": "m5AlCg2TuDeAjPJs",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721303244,
+        "modifiedTime": 1772721354837,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 95-96 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_95_96.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-95-96-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы очарованы [Charmed] грациозностью вашей цели. В конце каждого своего хода (включая этот) вы можете совершить Спасбросок Харизмы со сложностью 8 + ваш бонус попадания этим оружием. Эффект очарования прекращается при успехе.</span></p>",
+      "_id": "f0UWNBYMwVNadgcR",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721381241,
+        "modifiedTime": 1772721435009,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 97-98 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_97_98.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-97-98-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Один случайный союзник, который видит произошедшее, отвлекается на вашу неудачу и получает -2 КД до конца своего следующего хода.</span></p>",
+      "_id": "mtsQoid9oDaz8mb3",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectToSelection \"Distracted by Ally\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772721484624,
+        "modifiedTime": 1772722133508,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Melee 99-100 (You)",
+      "img": "modules/crit-effects-cauldron/icons/melee_fail_99_100.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-melee-99-100-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте d100 два раза и примените оба эффекта (если значиния одинаковые, эффект применяется только 1 раз).</span></p>",
+      "_id": "03pMEhwUtbwGiagZ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.qEeheuNtTw8dXadl",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772722201004,
+        "modifiedTime": 1772722242277,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tihij-mir-v-poiskah-magii",
+      "uuid": "Item.qEeheuNtTw8dXadl",
+      "coreVersion": "13.351",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.3"
+    },
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.3",
+    "createdTime": 1772533103449,
+    "modifiedTime": 1772798813095,
+    "lastModifiedBy": "qVhk7NMxfSxiY964"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

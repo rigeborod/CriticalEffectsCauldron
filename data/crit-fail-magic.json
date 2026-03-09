@@ -1,0 +1,4258 @@
+{
+  "name": "Crit Fail Magic",
+  "type": "facility",
+  "flags": {
+    "dfreds-convenient-effects": {
+      "isConvenient": true,
+      "isBackup": false,
+      "isViewable": true,
+      "folderColor": ""
+    }
+  },
+  "img": "modules/dfreds-convenient-effects/images/magic-palm.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "crit-fail-magic",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": null
+    },
+    "level": 5,
+    "order": "",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": "",
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "basic",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Crit Fail Magic 01-02 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_01_02.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-01-02-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В попытках скомпенсировать неудачу вы потратили ячейку более высокого уровня (если такая ячейка есть), или получили 1 степень истощения (если такой ячейки нет).</span></p>",
+      "_id": "Lsgl7lAEuf2Iu6pU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772816035384,
+        "modifiedTime": 1772816074210,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 03-04 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_03_04.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-03-04-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вас меняет местами с целью. Если вы или цель не можете поместиться в соответствуюещее место, вместо этого появляетесь в ближайшем месте на свой выбор, в котором можете поместиться.<br /><br /></span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><strong>Подвиньте токен вручную, если он \"застрял\".</strong></span></p>",
+      "_id": "iMSQCAkQYH2K4GTq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "SwapToSelection",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": "Item.NnePB954Wz5IvJgI.ActiveEffect.iMSQCAkQYH2K4GTq",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772816280247,
+        "modifiedTime": 1772816869640,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 05-06 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_05_06.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-05-06-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание не срабатывает из-за нарушения в потоках маны внутри вашего тела, что сбивает вас с толку. На этом ходу ваша скорость равна 0. Также вы пропускаете свой следующий ход. Вместо этого вы перемещается в случайном направлении, определяемом ДМом, используя всю свою скорость передвижения, включая использование действия Рывок. Каждый раз, когда перемещение должно навредить вам, вы можете пройти Спасбросок Мудрости со сложностью 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики и при успехе остановиться.</span></p>",
+      "_id": "ytevua6CWWvnaiJE",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772829624600,
+        "modifiedTime": 1772829762492,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 07-08 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_07_08.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-07-08-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы меняетесь телами с собой из параллельной вселенной. Ваш вид определяется случайным образом из списка всех видов, которые есть в данной редакции DnD, даже если такого вида нет в данном мире. Эффект сохраняется до конца длинного отдыха.</span></p>",
+      "_id": "2zrvV4y3CXuzr3bL",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772829909113,
+        "modifiedTime": 1772829953455,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 09-10 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_09_10.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-09-10-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "startEveryTurn",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вам так стыдно, что вы промахнулись, что вы концентрируете все свои усилия на точности. В течение ближайшей минуты в начале каждого хода вы получаете накапливаемый бонус +1 к попаданию и (также накапливаемый) штраф к урону. При бонусе к попаданию +N штраф зависит от уровня заклинания и равен [-1 - уровень заклинания * 2]*N. Также вы не добавляете бонус от характеристики при подсчёте урона. По завершению минуты эффект заканчивается.<br /><br />Результирующий эффект равен количеству стеков эффекта \"Accuracy With Less Damage (Magic)\".</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectWithOriginal \"Accuracy With Less Damage (Magic)\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.pkRx8EBLl8LHwLQI",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772830059463,
+        "modifiedTime": 1772830216981,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "eqS92o5qeyimm9Hp"
+    },
+    {
+      "name": "Crit Fail Magic 11-12 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_11_12.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-11-12-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Внутри вас открывается разрыв. В течение 1 минуты в свой ход вы обязаны тратить своё Бонусное действие на то, чтобы телепортироваться на расстояние до 20 футов в любую незанятую клетку пространства, которую можете видеть и которая ближе к врагам, чем предыдущая (если это возможно). Это не провоцирует атаки по вам.</span></p>",
+      "_id": "GYqnJ0FGAdfQUTgU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772830984972,
+        "modifiedTime": 1772831020202,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 13-14 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_13_14.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-13-14-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание взрывается вам прямо в лицо, вы становитесь Слепым [Blinded] до конца своего следующего хода и получаете [Слабый] урона излучением.</span></p>",
+      "_id": "IwgmixhYqaJTGXrY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772831044340,
+        "modifiedTime": 1772831173766,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 15-16 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_15_16.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-15-16-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание открывает ужасающий разлом, из которого вырывается невообразмо ужасное щупальце, хватающее вас и пытающееся утащить вас в разлом (щупальце преуспеет в этом, если вы не вырветесь из захвата за три раунда). Вы получаете [Средний] дробящего урона и вынуждены пройти спасбросок Ловкости (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики). В случае успеха щупальце исчезает в разломе. В случае провала вы получете состояние Схваченный [Grappled]. Щупальце имеет 2 * [Сильный] хитов и Класс брони 13. Оно отпускает цель и исчезает в разломе, если его хиты падают до 0. Вы можете попытаться вырваться самостоятельно, если Действием пройдёте проверку Силы (Атлетика) (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики), другое существо может помочь вам выполнить эту проверку, своим Действием выполнив действие Помощь, тем самым даровав вам Преимущество на проверку, либо попытавшись в свой ход освободить вас самостоятельно (совершив такую же проверку Силы). Если вы вырываетесь из захвата, щупальце исчезает в разломе. В конце каждого своего хода, если вы захвачены щупальцем, вы получаете [Слабый] дробящего урона. Если вы должны получить этот урон в третий раз, вместо этого щупальце исчезает в разломе, удерживая вас (перманентная смерть вас в чужом измерении).</span></p>",
+      "_id": "y4906smnEf3FlaEh",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 2,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "grappled"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772831675952,
+        "modifiedTime": 1772831990251,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 17-18 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_17_18.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-17-18-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше провал спутывает вам все мысли. Вы получаете дополнительно [Средний] психического урона, а также будете вычитать 1d4 (2) как из следующего спасброска, так и из следующего броска атаки, которые вы совершите до конца своего следующего хода.</span></p>",
+      "_id": "VsfBLWa1OpnCPHus",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772831830281,
+        "modifiedTime": 1772831922104,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 19-20 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_19_20.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-19-20-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия, исходящая из ваших рук, вместо желаемого эффекта заставляет волшебные корни прорасти сквозь землю прямо под вашими ногами. Вы становитесь Опутанными [Restrained] до конца своего следующего хода.</span></p>",
+      "_id": "4yFyvgRXHksvtFnK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.save.roll.mode",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772832067370,
+        "modifiedTime": 1772832206688,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 21-22 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_21_22.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-21-22-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия, исходящая из ваших рук, заставляет на 1 минуту покрыть область радиусом 20 футов с центром на цели волшебной липкой паутиной. Эта область считается Труднопроходимой. Каждое существо, начинающее свой ход в этой области или впервые за ход входящее в неё, должно совершить спасбросок Ловкости (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики). При провале цель получает состояние Опутанный [Restrained] и остаётся в паутине, пока не вырвется из неё. Чтобы вырваться из паутины, необходимо Действием пройти проверку Силы (Атлетика) (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики). Паутина воспламеняема. Любой 5-футовый Куб паутины, соприкоснувшийся с огнём, сгорает в течение 1 раунда, нанося 2к4 урона Огнём всем существам, начинающим свой ход в этой области.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "WebSpawn20",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.xM97pfSYhtmymtaW",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772832269624,
+        "modifiedTime": 1772832302747,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "yhSG1rWMJYGN7Y47"
+    },
+    {
+      "name": "Crit Fail Magic 23-24 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_23_24.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-23-24-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание не срабатывает из-за нарушения в потоках маны внутри вашего тела, что вызывает у вас немоту. В течение 1 минуты вы не может пользоваться Вербальным компонентом заклинаний, произносить командные слова, а также просто говорить что-либо и командовать отрядами. В конце каждого своего хода вы можете попытаться пройти Спасбросок Телосложения, Мудрости или Интеллекта (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики), чтобы окончить эффект быстрее.</span></p>",
+      "_id": "Ixs3eEE7xWaPK2e0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772832372496,
+        "modifiedTime": 1772832421587,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 25-26 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_25_26.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-25-26-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-weapon-dropped-(fma25,-fma26)",
+            "ce-weapon-not-dropped-(fma25,-fma26)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Выберите, может ли ваша магическая фокусировка, мешочек с материалами или материальный компонент (в зависимости от того, что использовалось, или первое доступное в порядке перечисления, если ничего не использовалось) быть физически брошен(а).</span></p>",
+      "_id": "BAnQHW0JjlalJPK0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772832771217,
+        "modifiedTime": 1772832995120,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 27-28 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_27_28.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-27-28-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-reduce",
+            "ce-enlarge-target-(fma27,-fma28)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия начинает менять мир вокруг вас. На 1 минуту выберите одно: или вы уменьшаете свой размер на одну категорию, или цель увеличивает свой размер на одну категорию. Эффект работает аналогично заклинанию Увеличение/уменьшение [Enlarge/Reduce]. Концентрация для поддержания этого эффекта не требуется.</span></p>",
+      "_id": "PQjirJPZA52gSrHN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772833553792,
+        "modifiedTime": 1772833614477,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 29-30 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_29_30.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-29-30-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Волна магии из ваших рук заставляет атакованное существо и всё носимое им снаряжение стать Невидимым [Invisible] до конца его следующего хода. Этот эффект может закончиться раньше, если оно совершит бросок атаки, использует любое заклинание или нанесёт урон.</span></p>",
+      "_id": "54fRNuWzqCKLI45y",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectToSelection \"Invisibility for Target (FMa29, FMa30)\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772833797057,
+        "modifiedTime": 1772834272543,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 31-32 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_31_32.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-31-32-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия, исходящая из ваших рук, вместо желаемого эффекта заставляет резко понизиться температуру воздуха вокруг вас. Вы получаете дополнительные [Средний] урона холодом от этой атаки и получаете 50% штраф к своей скорости передвижения до конца своего следующего хода.</span></p>",
+      "_id": "LLrVNMVwWNQuEQeN",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "*0.5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772834308848,
+        "modifiedTime": 1772834384336,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 33-34 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_33_34.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-33-34-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы разочарованы своими способностями. До конца своего следующего хода вы получаете помеху на все свои атаки.</span></p>",
+      "_id": "ibhjlikTLUSBzhYQ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772834466981,
+        "modifiedTime": 1772834532825,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 35-36 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_35_36.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-35-36-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вместо желаемого эффекта, на вас накладывается заклинание Левитация [Levitate], вас поднимает на 5 футов вверх (вместо 20 футов, но только если это возможно), а скорость вашего полёта оказывается 0, даже если до того она у вас была, заклинание не требует концентрации и действует или 10 минут, или пока либо другое существо не поставит вас своим действием на землю, или пока вы сами не придумаете способ коснуться земли.</span></p>",
+      "_id": "F9ROQyeUroVfUVCY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 20
+        },
+        {
+          "key": "ATL.elevation",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 600,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": "Item.NnePB954Wz5IvJgI.ActiveEffect.F9ROQyeUroVfUVCY",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772834749608,
+        "modifiedTime": 1772835150273,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 37-38 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_37_38.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-37-38-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваши руки вспыхивают огнём. Ваше снаряжение получает иммунитет к этому эффекту, однако в течение 1 минуты, вы поджигаете руками горючие предметы, которые никто не носит и не держит, и наносите себе [Слабый] урона огнём Безоружными ударами или бросками атаки, вызванными заклинаниями даже при промахе. Исключение - попадание огненными заклинаниями.</span></p>",
+      "_id": "7mzrk9009OoEpUBA",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772835380655,
+        "modifiedTime": 1772835420326,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 39-40 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_39_40.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-39-40-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы можете (но не обязаны) превратить эту атаку из критического промаха в критическое попадание. Если вы решаете так поступить, то вы получаете +1 степень истощения, а атака (которая гарантированно является критическим попаданием) с вероятностью 40% попадает не по цели, а по вам. (Киньте d10. Если выпало 1-4, то атака попадает по вам, если 5-10, то по цели.)</span></p>",
+      "_id": "8OujXOcY1axK9HYZ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772835504357,
+        "modifiedTime": 1772835605449,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 41-42 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_41_42.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-41-42-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинание попало, но получилось невероятно слабым, что не нанесло урона, но позволило цели адаптироваться к этому типу урона. В течение минуты цель имеет сопротивление типу урона этого заклинания, если не имела сопротивления данному типу урона, или же имунитет в противном случае.</span></p>",
+      "_id": "oiNUEVmoWsjFDOwt",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772835630692,
+        "modifiedTime": 1772835685873,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 43-44 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_43_44.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-43-44-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ближайшее заклинание, которое вы используете требует больше времени на прочтение. </span></p><ul><li><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинания, которые требуют реакции приводят к потери действия и бонусного действия в следующий ближайший ход после этой реакции.</span></p></li><li><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинания, требующие бонусного действия, требуют действия.</span></p></li><li><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинания, требующие действия или более длительного времени сотворения, удваивают необходимую длительность.</span></p></li></ul><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Для того, чтобы эффект закончился, необходимо сотворить заклинание. Попадать при этом не обязательно.</span></p>",
+      "_id": "3fNGVHPXKKzNCHnc",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772835735664,
+        "modifiedTime": 1772835829243,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 45-46 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_45_46.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-45-46-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [
+            "ce-blinded",
+            "ce-restrained"
+          ],
+          "otherEffectIds": [
+            "ce-prone"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы чувствуете особую связь с одним из своих союзников. Случайным образом выберите одно существо, которое можете видеть, являющееся вашим союзником. Вы видете его глазами и слышать то же, что слышит он, получая преимущества особых чувств, которыми может обладать этот союзник. При этом вы теряете свои собственные чувства и ваше тело Падает ничком [Prone], а скорость вашего передвижения становится 0. Вы можете сотворять только заклинания с дистанцией Касание, это касание должен передать ваш союзник, он передаёт такое касание при сотворении вами заклинания своей Реакцией. Для этого ваш союзник должен находиться в пределах 100 футов от вас. Эффект действует 1 минуту. В конце каждого вашего хода вы можете проходить Спасбросок Мудрости, чтобы окончить этот эффект в случае успеха. Ваш союзник может совершать проверку Проницательности в конце своего хода, чтоы также окончить этот эффект в случае успеха. Сложность обеих проверок равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики.</span></p>",
+      "_id": "ggtew9bZDT20cIgx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772835883414,
+        "modifiedTime": 1772836039314,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 47-48 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_47_48.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-47-48-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака приводит вас в Смятение [Confusion] с эффектом похожим на эффект одноимённого заклинания (без спасбросков и атака совершается текущим оружием (включая сотворение заклинаний)). Этот эффект действует 1 минуту и не поддерживается Концентрацией. Этот эффект пропадает, если вы выкинете 9-10 по таблице Поведения (в описании заклинания).</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br /><em>Вы не можете совершать Бонусные действия и Реакции и в начале каждого своего хода должны бросить 1к10, чтобы определить своё поведение в этом ходу согласно следующей таблице.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>1 Вы не можете совершать действий и используете всё своё перемещение для движения в направлении, определяемом броском 1к4: 1 - север; 2 - восток; 3 - юг; 4 - запад.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>2-6 Вы не двигаетесь и не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>7-8 Вы не двигаетесь и совершаете действие Атака, делая одну атаку против случайного существа в пределах досягаемости. Если в пределах досягаемости нет существ, вы не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>9-10 Эффект заканчивается.</em></span></p>",
+      "_id": "dpSbl9uGmyj4TsXD",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772836222003,
+        "modifiedTime": 1772836276263,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 49-50 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_49_50.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-49-50-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магическая аура, исходящая от вас, которая должна была очаровать цель, очаровывает вместо этого вас, вы получаете состояние Очарованный [Charmed] до конца своего следующего хода. Цель может тут же потратить свою Реакцию, чтобы отдать вам короткий приказ (не более трёх слов). Этот приказ не должен заставлять вас напрямую вредить себе (например, спрыгнуть в глубокую яму или заколоть себя). В свой ход вы будете стараться изо всех сил выполнить этот приказ. Если под действием этого эффекта вы получаете урон, вы немедленно теряете приобретённое от этого эффекта состояние Очарованный [Charmed] и перестаёте выполнять отданный вам приказ.</span></p>",
+      "_id": "2oosvpwFY3DwjbKV",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772836427476,
+        "modifiedTime": 1772836660315,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 51-52 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_51_52.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-51-52-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Искра дикой магии заставляет ваше заклинание расщепиться и поразить вас и всех союзных вам существ, стоящих в радиусе 5 футов от вас. Вы получаете [Слабый] урона того же типа, что и заклинание. Они получат [Средний] урона того же типа.</span></p>",
+      "_id": "W9dihYdsy4uDU42z",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772836755390,
+        "modifiedTime": 1772836791110,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 53-54 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_53_54.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-53-54-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов до конца Длинного отдыха.</span></p>",
+      "_id": "OC8pShOxwnWvF9hv",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772836810250,
+        "modifiedTime": 1772836850501,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 55-56 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_55_56.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-55-56-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов сразу же, а также в начале каждого её хода в течение минуты. Временные хиты, полученные таким образом, действуют до конца Длинного отдыха.</span></p>",
+      "_id": "Mi4iuWpuxamE7GQI",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772837038111,
+        "modifiedTime": 1772837113984,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 57-58 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_57_58.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-57-58-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание застывает во времени и пространстве, так и не долетев до цели. Посчитайте количество 5 футовых клеток, которые лежат на линии, соединяющие ваши с целью центры (не считая клеток цели и ваших клеток). Киньте урон как от критического попадания и поделите на количество клеток (округляя вниз). Получившееся значение (не меньше 1) - это значение урона, которое получит первое существо, которое в любой момент окажется в каждой из посчитанных клеток. Если существо уже там, оно получает урон сразу. Каждая клетка наносит урон ровно один раз. Тип урона совпадает с типом урона заклинания.</span></p>",
+      "_id": "HAhhB2mstneAikjD",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "LineOfDamageManager",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772837313761,
+        "modifiedTime": 1772838161137,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 59-60 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_59_60.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-59-60-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы получаете штраф -2 КД до конца своего следующего хода, т.к. отвлеклись на свою неудачу.</span></p>",
+      "_id": "T6JTDDFbWCk1GfdO",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772838537133,
+        "modifiedTime": 1772838602075,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 61-62 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_61_62.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-61-62-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы немного разочарованы собой. Получите [Слабый] психического урона.</span></p>",
+      "_id": "7SG7wmJ6sge5VBtW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772838622953,
+        "modifiedTime": 1772838660696,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 63-64 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_63_64.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-63-64-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Раздосадованные таким глупым промахом, вы совершаете ещё одну атаку по цели. Эта атака не может быть критической. Истощив на это все свои силы, ваша скорость становится 0 до конца вашего следующего хода. Всё это время вы не можете использовать Действие, Бонусное действие и Реакцию.</span></p>",
+      "_id": "t8cDzpRmeWkXt0xI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772838681285,
+        "modifiedTime": 1772838752918,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 65-66 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_65_66.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-65-66-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте d20. Если снова выпала 1, вы так неудачно ударились, пытаясь совершить удар, что ваши ХП опустились до 1. В противном случае получите [Средний] урон от своего оружия.</span></p>",
+      "_id": "hz4KhbfP5pwEq76V",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772838765523,
+        "modifiedTime": 1772838794146,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 67-68 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_67_68.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-67-68-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вокруг вас взрывается более слабая версия Огненного Шара, где урон заменён на [Сильный]. Вы невосприимчивы к этому конкретному урону, однако вы получаете половину урона, полученного всеми вашими союзниками в виде некротического урона.</span></p>",
+      "_id": "3slth0abncXl8Buu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772838826754,
+        "modifiedTime": 1772838956834,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 69-70 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_69_70.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-69-70-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинание внезапно активировало взгляд василиска! Вы и все существа, которых вы видите в этот момент, должны начать проходить спасбросок Телосложения в конце каждого своего хода (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики) до тех пор, пока не накопят три успеха или три провала (не обязательно подряд). При успехе они получают состояние Опутанный [Restrained], а их скорость передвижения падает до 0 до конца их следующего хода. При провале они получают состояние Окаменевший [Petrified] на 1 минуту, а они и всё носимое ими снаряжение обращаются в камень. Конструкты автоматически преуспевают в этом спасброске. Ваши противники совершают этот спасбросок с Преимуществом. Все существа могут повторять этот спас бросок уже будучи окаменевшими, оканчивая эффект заранее, в случае успеха.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "BasiliskGaze true",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.VJXF1VX8fFsZjGtW",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772839097122,
+        "modifiedTime": 1772839403839,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "UauW7kvzCVVJpqeG"
+    },
+    {
+      "name": "Crit Fail Magic 71-72 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-71-72-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-summon-air-elemental-(fail)",
+            "ce-summon-earth-elemental-(fail)",
+            "ce-summon-fire-elemental-(fail)",
+            "ce-summon-water-elemental-(fail)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия, исходящая из ваших рук, вместо желаемого эффекта призвала на помощь вашей цели первородную сущность вселенной. По выбору цели в свободном пространстве в 30 футах от вас появляется элементаль под контролем ГМа. Бросьте 1d4: 1 — водяной, 2 — воздушный, 3 — земляной, 4 — огненный.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.3tZkeei2PItSCubx",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772839779694,
+        "modifiedTime": 1772840776888,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "ulvmYCVeMH7sbvM1"
+    },
+    {
+      "name": "Crit Fail Magic 73-74 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_73_74.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-73-74-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы убеждаете себя, что больше никогда и ни за что так позорно не промахнётесь. Находясь в таком заблуждении вы переоцениваете себя. В течение минуты при совершении атаки заклинанием, при промахе, если бы бонус +2 привёл бы к попаданию, то заклинание попадает в вас.</span></p>",
+      "_id": "ONaPZcrz17CdnAsQ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772840980451,
+        "modifiedTime": 1772841025810,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 75-76 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_75_76.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-75-76-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Внезапная чарующая вспышка вместо эффекта заклинания заставляет вас преуспеть в спасброске Мудрости (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики), иначе вы упадёте спать и получите состояние Бессознательный [Unconscious] на 1 минуту. Любое существо может потратить своё Действие, чтобы разбудить вас. Если вы имеете состояние Истощённый [Exhausted], количество Действий, которые необходимо потратить, чтобы разбудить вас, равняется Степени истощения цели + 1. Если у вас есть иммунитет к состоянию Истощение [Exhaustion], магическому усыплению, или вы являетесь неспящим существом, то вы автоматически преуспеваетк в спасброске.<br /><br /><strong>Активируйте эффект в случае провала спасброска.</strong></span></p>",
+      "_id": "FlfV7UgLbBKDPlka",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.fail.ability.save.str",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.fail.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.critical.range",
+          "mode": 0,
+          "value": "5",
+          "priority": 50
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        },
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "UnconsciousEffects",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "unconscious"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772841187803,
+        "modifiedTime": 1772841418573,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 77-78 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_77_78.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-77-78-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание не срабатывает из-за нарушения в потоках маны внутри вашего тела, что сбивает вас с толку. В течение следующей 1 минуты вы становитесь не в состоянии удерживать Концентрацию на заклинаниях. Также вы теряете Концентрацию на заклинании, если до того концентрировались на нём.</span></p>",
+      "_id": "fKypRUhrrNmTvsUn",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772841451180,
+        "modifiedTime": 1772841488425,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 79-80 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_79_80.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-79-80-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы так недовольны, что впадаете в Ярость. Используйте описание ярости Варвара. Эта ярость прекращается либо через одну минуту, либо после того, как ХП одного из противников, в которых вы попадали атаками за время ярости, довели до 0.</span></p>",
+      "_id": "ataJODzV5ilvZeCO",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772841548027,
+        "modifiedTime": 1772841637988,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 81-82 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_81_82.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-81-82-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-save-advantage"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание, вместо ожидаемого эффекта помогает цели концентрироваться. В течение 1 минуты цель получает Преимущество на Спасбросок на удержание концентрации.</span></p>",
+      "_id": "tEbwRwiCqZYc5HDM",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772841677327,
+        "modifiedTime": 1772842285696,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 83-84 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_83_84.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-83-84-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Посредством магии вы открыли канал перекачки энергии жизни. Выберите три существа (предпочитая врагов) в качестве целей, включая изначальную цель. Эти существа получают [Средний] временных хитов. Вы получаете половину суммарного количества временных хитов в виде некротического урона.</span></p>",
+      "_id": "JfMok6VS4FcXu7Nu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772842348807,
+        "modifiedTime": 1772842403646,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 85-86 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_85_86.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-85-86-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-summon-1-imp-(fail)",
+            "ce-summon-2-gnoll-warriors-(fail)",
+            "ce-summon-4-dretches-(fail)",
+            "ce-summon-8-manes-(fail)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание прорвало ткань реальности! В свободном пространстве в пределах 5 футов от вас открываются один или несколько порталов, из которого появляются враждебные всем на поле боя существа под контролем ДМа. Совершите бросок 1d4: 1 — х8 Манов [Manes], 2 — х4 Дретчей [Dretch], 3 — х2 Гноллов-воителей [Gnoll warrior], 4 — х1 Бес [Imp].</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.WfWBCpdbZ3qggQHO",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772877418590,
+        "modifiedTime": 1772877516636,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "gAuwQis0mL0YNLEX"
+    },
+    {
+      "name": "Crit Fail Magic 87-88 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_87_88.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-87-88-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваше заклинание пытается превратить вас в безвредного тюленя! Вы должны пройти спасбросок Мудрости (Сл равна 8 + ваш Бонус мастерства + модификатор вашей заклинательной характеристики), иначе на 1 минуту обратиться вместе со всем своим снаряжением в форму Тюленя [Seal] и получить [Cлабый] временных хитов.</span></p><p></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Активируйте эффект при провале спасброска.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "SealPrepare",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.L6DU9Rd9ow0wenVx",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772877603640,
+        "modifiedTime": 1772878365086,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "U4cLluvccSZPzblW"
+    },
+    {
+      "name": "Crit Fail Magic 89-90 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_89_90.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-89-90-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Магия что-то повредила внутри вашего тела. Каждый ход вы получаете 1 некротического урона, пока у вас не останется 1 ХП, после чего эффект заканчивается. Если вы первого уровня, то урон вы получаете каждый второй ход.</span></p>",
+      "_id": "zLjKmPSdVY9ktRGN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772878743133,
+        "modifiedTime": 1772878786164,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 91-92 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_91_92.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-91-92-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Заклинание заставляет ваше тело мерцать. Эффект работает подобно заклинанию Огонь фей [Faerie fire], которое применяется только на вас и не требует концентрации. Считается, что вы провалили Спасбросок ловкости, который указан в заклинании.</span></p>",
+      "_id": "GkhzWqWwH9VenKPi",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772878823536,
+        "modifiedTime": 1772878928573,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 93-94 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_93_94.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-93-94-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы должны смыть позор кровью своего врага. До тех пор, пока цель не будет опущена до 0 ХП, в каждый свой ход вы обязаны атаковать эту цель, если это возможно. Исключение - если исходное заклинание было дальнобойным, и одновременно с этим для того, чтобы совершить новую атаку вы должны оказаться в досягаемости враждебного существа. В таком случае вы можете не перемещаться в эту сторону и не совершать действие атака. Эффект при этом не заканчивается, атаковать другие цели вы не можете.</span></p>",
+      "_id": "ZzhptohygnETplAh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772878961064,
+        "modifiedTime": 1772878994459,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Magic 95-96 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_95_96.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-95-96-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша магическая атака настолько нелепа, что вы вдохновляете одного противника, который мог её видеть. Следующая атака, которую он совершит, будет с преимуществом, а КД цели будет меньше на 2.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectToSelection \"Attack Advantage (SMa95, SMa96)\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.g0le8lPHMgxfzStb",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772999287326,
+        "modifiedTime": 1772999427442,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "c2RxJ4g8RDuJ0eej"
+    },
+    {
+      "name": "Crit Fail Magic 97-98 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_97_98.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-97-98-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша магическая атака настолько нелепа, что вы вдохновляете всех противников, которые могут её видеть. Следующая атака, которую каждый из них совершит, будет с преимуществом, а КД цели будет меньше на 1.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectByVisionOfTargetAndRelation \"Attack Advantage (SMa97, SMa98)\" enemy",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.8z8m51sZFqoPW2xI",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772999289519,
+        "modifiedTime": 1772999503062,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "ytvd6cOUKQKngfKO"
+    },
+    {
+      "name": "Crit Fail Magic 99-100 (You)",
+      "img": "modules/crit-effects-cauldron/icons/magic_fail_99_100.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-magic-99-100-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша магическая фокусировка получает накапливаемый штраф -1. Штраф действует до длинного отдыха.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NnePB954Wz5IvJgI",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.ASU6Dn3gqs5aj7kC.ActiveEffect.Yp37f1KO8QzRj4fX",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772999291929,
+        "modifiedTime": 1772999546413,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "DERGxxeV2KUV7trx"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tihij-mir-v-poiskah-magii",
+      "uuid": "Item.NnePB954Wz5IvJgI",
+      "coreVersion": "13.351",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.3"
+    },
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.3",
+    "createdTime": 1772815766459,
+    "modifiedTime": 1772815766459,
+    "lastModifiedBy": "qVhk7NMxfSxiY964"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

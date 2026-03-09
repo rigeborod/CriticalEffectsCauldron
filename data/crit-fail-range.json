@@ -1,0 +1,4283 @@
+{
+  "name": "Crit Fail Range",
+  "type": "facility",
+  "flags": {
+    "dfreds-convenient-effects": {
+      "isConvenient": true,
+      "isBackup": false,
+      "isViewable": true,
+      "folderColor": ""
+    }
+  },
+  "img": "modules/dfreds-convenient-effects/images/magic-palm.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "crit-fail-range",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": null
+    },
+    "level": 5,
+    "order": "",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": "",
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "basic",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Crit Fail Range 01-02 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_01_02.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-01-02-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-weapon-dropped-(fr01,-fr02)",
+            "ce-weapon-not-dropped-(fr01,-fr02)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Выберите, может ли ваше текущее оружие быть физически брошено.</span></p>",
+      "_id": "zcvUKDWYaSR9sYWi",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772723505559,
+        "modifiedTime": 1772723563863,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 03-04 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_03_04.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-03-04-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вместо цели вы попадаете по другому существу по направлению выстрела перед или за существом, которое вы атаковали изначально. Киньте d100. В 10% случаев (1-10) это критическое попадание по союзнику. В 70% случаев (11-80) это обычное попадание по союзнику. В 15% случаев (81-95) это попадание по другому врагу. В 5% случаев это попадание по себе. Если подходящей по типу цели нет в зоне вашей досягаемости, эффект не срабатывает.</span></p>",
+      "_id": "uKmm1c6nxDpv8TSO",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772723664502,
+        "modifiedTime": 1772723786550,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 05-06 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_05_06.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-05-06-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы разочарованы своими способностями. До конца своего следующего хода вы получаете помеху на все свои атаки.</span></p>",
+      "_id": "hHiTXVjFR8Irj6MC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772723803394,
+        "modifiedTime": 1772723873895,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 07-08 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_07_08.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-07-08-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "countDeleteDecrement",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы совершили очень неудачное движение, повредив руку, используемую для атаки. Вы получаете накапливаемый штраф -N к броскам Атаки и урона. Магическое лечение, зелье лечения или использование любого иного предмета снаряжения или способности, которые способны восстанавливать хиты, оканчивают эффект. Длинный отдых уменьшает эффект на 1.</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br />N - количество стеков данного эффекта.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.HeBU2pcuEpNBDSeB",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772723976784,
+        "modifiedTime": 1772724038641,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "QUi0tYr4e7ACGh2L"
+    },
+    {
+      "name": "Crit Fail Range 09-10 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_09_10.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-09-10-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Оружие одскочило прямо вам в лицо. Вы получаете состояние Ослеплён [Blinded] до конца вашего следующего хода.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.XaHxITsudazKlHA7",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772724108917,
+        "modifiedTime": 1772724132082,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "aOTWG2ak3zAb12IA"
+    },
+    {
+      "name": "Crit Fail Range 11-12 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_11_12.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-11-12-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваш выстрел был настолько неточен, что вдохновляет вашего противника. Существо, которое вы атаковали получает накапливаемый бонус +1 к броскам Атаки и урона. Бонус действует до длительного отдыха.</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br />Итоговое значение бонуса равно количеству стеков эффекта.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.eQpgTUwFSaEjXjlD",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772724225262,
+        "modifiedTime": 1772724284735,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "Eeqw37L1M36Njo0J"
+    },
+    {
+      "name": "Crit Fail Range 13-14 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_13_14.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-13-14-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-crit-fail-range-11-12-(target)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваш выстрел был настолько неточен, что вдохновляет ваших противников.Враждебные существа, которые видели этот промах (видели существо, по которому вы промазали) помимо самой цели, получают Преимущество [Advantage] на следующий бросок атаки.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectByVisionOfTargetAndRelation \"Attack Advantage (FR13, FR14)\" friend",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.EbFSD7lnXM0C2r6c",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772724377595,
+        "modifiedTime": 1772724642668,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "0kkkMD8Hq1Vd5c3i"
+    },
+    {
+      "name": "Crit Fail Range 15-16 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_15_16.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-15-16-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">При попытке атаковать вы повредили своё оружие. Оружие получает накапливаемый штраф -1 к броскам Атаки и урона. Этот штраф длится до момента, пока оружие не будет отремонтировано заклинанием Починка [Mending], с помощью Инструментов кузнеца или у кузнеца в городе, или до момента, когда здоровье цели вновь поднимется до 100% (для природного оружия).</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br />Итоговый штраф (если каждый раз применялся к одному оружию) равен количеству стеков этого эффекта.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.HT8gWzbcTvBuMVwR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772724858145,
+        "modifiedTime": 1772725031936,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "pWwBX5BHPnxpCovL"
+    },
+    {
+      "name": "Crit Fail Range 17-18 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_17_18.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-17-18-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-prone"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Если вы были расположены на поверхности, с которой можно упасть, пройдите Спасбросок Ловкости со сложностью 8 + ваш бонус попадания этим оружием. При провале вы падаете вниз с этой поверхности. В любом случае вы Падаете ничком [Prone].</span></p>",
+      "_id": "YbRhoNU30ifWRiyY",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725067931,
+        "modifiedTime": 1772725127167,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 19-20 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_19_20.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-19-20-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-prone"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Если вы были расположены на поверхности, с которой можно упасть, пройдите Спасбросок Ловкости со сложностью 10 + ваш бонус попадания этим оружием. При провале вы падаете вниз с этой поверхности. В любом случае вы Падаете ничком [Prone] и получаете [Слабый] дробящего урона.</span></p>",
+      "_id": "NC5zCxj5wLCJTX39",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725163235,
+        "modifiedTime": 1772725217265,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 21-22 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_21_22.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-21-22-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вам кажется, что противник отбил ваш выстрел одним лишь своим взглядом. Вы Напуганы [Frightened] атакованным вами существом. В конце каждого своего хода вы можете попытаться пройти проверку Мудрости СЛ: 8 + ваш бонус попадания этим оружием, чтобы окончить эффект. Вы проходите эту проверку с преимуществом, если не видите цель.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.YHRtx9EEqblKHfjQ",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725294746,
+        "modifiedTime": 1772725368314,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "4uXq4ktpSNVXw5RN"
+    },
+    {
+      "name": "Crit Fail Range 23-24 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_23_24.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-23-24-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-crit-fail-range-21-22-(you)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">До конца своего следующего хода вы должны двигаться максимально далеко от цели, при этом не причиняя себе вреда (например, не спрыгивая в лаву и используя действие Отход при необходимости).</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.UJ4knE7pSS2IUtfE",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725663898,
+        "modifiedTime": 1772725744835,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "Jz2uq2zzuasYXsLs"
+    },
+    {
+      "name": "Crit Fail Range 25-26 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_25_26.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-25-26-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Из-за потери баланса при этом ударе, следующая атака по вам будет игнорировать ваш модификатор ловкости при расчёте вашего КД.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.FJq84ROKLlGoq1wu",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725874617,
+        "modifiedTime": 1772725907273,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "R5B4OUXXJUPO7AXU"
+    },
+    {
+      "name": "Crit Fail Range 27-28 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_27_28.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-27-28-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Раздосадованные таким глупым промахом, вы временно теряете волю к сражению. Ваша скорость становится 0 до конца вашего следующего хода. Всё это время вы не можете использовать Действие, Бонусное действие и Реакцию.</span></p>",
+      "_id": "lTTMb71zi7tnRjzN",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772725964554,
+        "modifiedTime": 1772726116835,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 29-30 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_29_30.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-29-30-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Чтобы избежать подобных казусов, вы начинаете действовать осторожнее. В течение минуты урон ваших атак уменьшается на [Слабый]. Эффект применяется только к первой атаке за ход. В случае, если величина урона получается отрицательной, вместо этого цель получает временный хиты (до конца Длинного отдыха). Эффект заканчивается раньше в случае вашего критического попадания.</span></p>",
+      "_id": "I3AHfYAz8mcvvc8n",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772726192102,
+        "modifiedTime": 1772726264791,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 31-32 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_31_32.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-31-32-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-prone"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы теряете равновесие и Падаете ничком [Prone], каким-то чудом удержавись на поверхности, если с неё можно было бы упасть. До конца этого хода ваша скорость равна 0.</span></p>",
+      "_id": "SJ9S1Z12Tc1Dsu2v",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772726289886,
+        "modifiedTime": 1772726385556,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 33-34 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_33_34.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-33-34-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака приводит вас в Смятение [Confusion] с эффектом похожим на эффект одноимённого заклинания (без спасбросков и атака совершается текущим оружием). Этот эффект действует 1 минуту и не поддерживается Концентрацией. Этот эффект пропадает, если вы выкинете 9-10 по таблице Поведения (в описании заклинания).</span><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><br /><br /><em>Вы не можете совершать Бонусные действия и Реакции и в начале каждого своего хода должны бросить 1к10, чтобы определить своё поведение в этом ходу согласно следующей таблице.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>1 Вы не можете совершать действий и используете всё своё перемещение для движения в направлении, определяемом броском 1к4: 1 - север; 2 - восток; 3 - юг; 4 - запад.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>2-6 Вы не двигаетесь и не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>7-8 Вы не двигаетесь и совершаете действие Атака, делая одну атаку против случайного существа в пределах досягаемости. Если в пределах досягаемости нет существ, вы не совершаете действий.</em></span></p><p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\"><em>9-10 Эффект заканчивается.</em></span></p>",
+      "_id": "CXIRckmJTjR2H1UH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772726438206,
+        "modifiedTime": 1772727474697,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 35-36 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_35_36.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-35-36-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Собственная бесполезность временно приводит вас в состояние бешенства. Вы должны рандомно выбрать цель в досягаемости своего оружия. В порыве бешенства вы размахиваете своим оружием безо всякой системы. В следующий свой ход Бросок атаки будет совершён с Помехой, также ухудшите свою кость на 1 класс (замените все d4 на 1, d6 на d4, d8 на d6, d10 на d8, а d12 на d10). Если в досягаемости нет ни одного враждебного существа, выберите союзное. Если нет ни одного вообще, выберете ближайшее враждебное и идите к нему прежде чем совершить атаку. Эффект действует до конца вашего следующего хода.</span></p>",
+      "_id": "GlyarlXL7Uty2kSl",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772727530434,
+        "modifiedTime": 1772727579610,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 37-38 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_37_38.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-37-38-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака серьёзно ранит вас. Вы должны совершить спасбросок Телосложения (Сл равна 8 + ваш бонус попадания этим оружием), при провале вы зарабатываете эффект кровотечения и получаете [Слабый] некротического урона в начале каждого своего хода. Вы можете повторять этот спасбросок в конце каждого своего хода, оканчивая эффект при успехе. Этот эффект не действует на конструктов, нежить, растения, слизь и элементалей и не способен убить существо, снижая его хиты максимум до 1. Кровотечение может быть устранено магическим лечением, зельем лечения или любым иным предметом снаряжения или способностью, которые способны восстанавливать хиты.</span></p>",
+      "_id": "UskAnUmEj9l9KtRA",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772727692978,
+        "modifiedTime": 1772727738202,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 39-40 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_39_40.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-39-40-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака развлекла какое-то божество, оно решает отплатить шуткой за шутку. Вы получаете состояние Благословение [Bless] с эффектом одноимённого заклинания. В течение 1 минуты, если вы совершаете бросок атаки или спасбросок, можете добавить 1d4 к результату броска. Если на вас уже есть этот эффект, его длительность сбрасывается до 1 минуты. Этот эффект может существовать параллельно с эффектом заклинания Благословение [Bless], вы получаете преимущество от обоих эффектов. Этот эффект не требует Концентрации для поддержания. Также на время действия этого эффекта всё ваше оружие превращается в резиновую или деревянную (детскую) версию себя же (дальность стрельбы 10/20 футов) и наносит 1 дробящего урона при попадании (модификатор характеристики не добавляется).</span></p>",
+      "_id": "zGDhILD8VjxvQJ7p",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 5,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 5,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772727789370,
+        "modifiedTime": 1772728054437,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 41-42 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_41_42.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-41-42-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы убеждаете себя в том, что всё дело в том, что всё дело в типе наносимого вам урона, поэтому перестаёте от него защищаться. Ближайшая успешная атака данного типа по вам будет критической.</span></p>",
+      "_id": "9x19MH2aCUiXlWIp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728102447,
+        "modifiedTime": 1772728161408,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 43-44 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_43_44.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-43-44-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "count",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы так сильно огорчены промахом, что получаете накапливаемый штраф -2 * N к Мудрости. Штраф действует до конца Длинного отдыха. В случае, если мудрость опускается до 4, вы теряете возможность отличать союзников от противников. В таком случае каждый ход цель для вас выбирает случайным образом мастер.<br /><br />N - количество стеков данного эффекта.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.M6WpXWHOF6hSTksx",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728264380,
+        "modifiedTime": 1772728288978,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "Mmqxvr3ZE6Cmo7CC"
+    },
+    {
+      "name": "Crit Fail Range 45-46 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_45_46.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-45-46-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Попав себе по голове, вы на мгновение теряете понимание происходящего. До конца своего следующего хода вы атакуете случайное существо в досягаемости (включая союзников).</span></p>",
+      "_id": "3pCf0WpSdDSv3jdw",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728320880,
+        "modifiedTime": 1772728360723,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 47-48 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_47_48.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-47-48-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Неудачное движение при попытке удара повреждает ваши внутренние органы. Каждый раз, когда вы в бою пытаетесь выполнить Действие, перед этим вы должны совершить спасбросок Телосложения (Сл равна 8 + ваш бонус попадания этим оружием). При провале вы теряете своё Действие и не можете совершать Реакции до конца своего следующего хода. При трёх успехах подряд, эффект приостанавливается до конца боя. Вы можете повторять этот спасбросок один раз по окончании Долгого отдыха, оканчивая этот эффект на себе при успехе.</span></p>",
+      "_id": "rt7NytvdYeFwOmBq",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728365435,
+        "modifiedTime": 1772728475851,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 49-50 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_49_50.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-49-50-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Для того, чтобы было проще стрелять, вы выбираете самую высокую точку в области боя. Начиная со следующего своего хода в начале хода пройдите Спасбросок интеллекта (Сл равна 8 + ваш бонус попадания этим оружием). Эффект заканчивается при успехе. Иначе вы не атакуете и тратите все свои действия, чтобы приблизиться или оказаться в этой точке. Как только вы это сделали, эффект заканчивается.</span></p>",
+      "_id": "GNy1eb5A27nDaNBn",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728512031,
+        "modifiedTime": 1772728595767,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 51-52 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_51_52.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-51-52-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [],
+          "subEffectIds": [],
+          "otherEffectIds": [
+            "ce-hideous-laughter-(crit-source)"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Все существа (как дружественные, так и враждебные) способные видеть как вы совершаете этот промах (включая вас) оказываются под действием эффекта, аналогичного заклинанию Жуткий смех Таши [Tasha's hideous laughter], включая изначальный Спасбросок. При этом концентрация для поддержания эффекта не требуется. Сложность Спасбросков равна 8 + ваш бонус попадания этим оружием. Вы совершаете эти Спасброски с Помехой.</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectByVisionOfTargetAndRelation \"Hideous Laughter (Crit)\" all",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.LgL63r18HYKIpQiM",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772728686308,
+        "modifiedTime": 1772728840852,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "kzsHJDKQPhqHngW7"
+    },
+    {
+      "name": "Crit Fail Range 53-54 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_53_54.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-53-54-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false,
+          "nestedEffectIds": [
+            "ce-weapon-dropped-(fr53,-fr54)",
+            "ce-weapon-not-dropped-(fr53,-fr54)"
+          ],
+          "subEffectIds": [],
+          "otherEffectIds": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Выберите, может ли ваше текущее оружие быть физически брошено.</span></p>",
+      "_id": "cCYPLrvpvrTmsh0K",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772730258999,
+        "modifiedTime": 1772730338259,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 55-56 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_55_56.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-55-56-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов до конца Длинного отдыха.</span></p>",
+      "_id": "iwijKimSbhuGwWmv",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772730761579,
+        "modifiedTime": 1772730805188,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 57-58 (Target)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_57_58.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-57-58-(target)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Своими потугами вы вдохновили свою цель. Она получает [Слабый] временных хитов сразу же, а также в начале каждого её хода в течение минуты. Временные хиты, полученные таким образом, действуют до конца Длинного отдыха.</span></p>",
+      "_id": "OUIx522JHTUYqcdo",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772730823943,
+        "modifiedTime": 1772730869611,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 59-60 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_59_60.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-59-60-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша атака заставляет вас замешкаться. Вы не можете совершать Реакции до конца своего следующего хода. В свой следующий ход вы можете совершить только или Действие, или Бонусное действие, но не то и другое вместе.</span></p>",
+      "_id": "eGoHzfDW3L1nP0If",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772800997478,
+        "modifiedTime": 1772801679549,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 61-62 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_61_62.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-61-62-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "startEveryTurn",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вам так стыдно, что вы промахнулись, что вы концентрируете все свои усилия на точности. Прямо сейчас, а также в течение ближайшей минуты в начале каждого хода вы получаете накапливаемый бонус +1 к попаданию и (также накапливаемый) штраф -1 к урону. Также вы не добавляете бонус от характеристики при подсчёте урона. По завершению минуты эффект заканчивается.<br /><br />Результирующий эффект равен количеству стеков эффекта \"Accuracy With Less Damage\".</span></p>",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "-@mod",
+          "priority": 20
+        },
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectWithOriginal \"Accuracy With Less Damage\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Item.qEeheuNtTw8dXadl.ActiveEffect.pkRx8EBLl8LHwLQI",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772801800125,
+        "modifiedTime": 1772801839792,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      },
+      "_id": "ZuVu89dBoJGNPZDJ"
+    },
+    {
+      "name": "Crit Fail Range 63-64 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_63_64.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-63-64-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы решаете, что это оружие вас недостойно и до конца боя его не используете. Если у вас есть другое оружие, используйте его. Если другого оружия нет, то постарайтесь его добыть (поднять с земли, отобрать у противника). В крайнем случае у вас есть безоружная атака.</span></p>",
+      "_id": "1nwUoSVZ62WcvKcy",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772802237172,
+        "modifiedTime": 1772802271034,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 65-66 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_65_66.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-65-66-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы получаете штраф -2 КД до конца своего следующего хода, т.к. отвлеклись на свою неудачу.</span></p>",
+      "_id": "ADU6NIPtnvWEvAnS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772802289933,
+        "modifiedTime": 1772802349879,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 67-68 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_67_68.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-67-68-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы дезориентированы, поэтому вы не можете совершать Реакции до начала своего следующего хода.</span></p>",
+      "_id": "3QHgB2h79TXyAjRH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772802382517,
+        "modifiedTime": 1772802424595,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 69-70 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_69_70.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-69-70-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы дезориентированы, поэтому вы совершаете с Помехой все спасброски до конца своего следующего хода.</span></p>",
+      "_id": "WpSbSkrxXaFhc0f7",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772802434981,
+        "modifiedTime": 1772802466018,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 71-72 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_71_72.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-71-72-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы сильно дезориентированы, поэтому до конца своего следующего хода вы совершаете с Помехой все спасброски и не можете совершать Реакции.</span></p>",
+      "_id": "9ZrXK1PlAjeLGToJ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772813975360,
+        "modifiedTime": 1772814010420,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 73-74 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_73_74.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-73-74-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">В результате вашей неудачи вы очень сильно дезориентированы, поэтому до конца своего следующего хода вы совершаете с Помехой все спасброски, не можете совершать Реакции, а также можете использовать либо Действие, либо Бонусное действие, но не то и другое вместе.</span></p>",
+      "_id": "cTvPNIjYVBFvAHh7",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814057904,
+        "modifiedTime": 1772814099548,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 75-76 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_75_76.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-75-76-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваша ошибка подорвала вашу веру в себя. Получите +1 степень истощения.</span></p>",
+      "_id": "7i3aOKMS1ZKucUoK",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814115899,
+        "modifiedTime": 1772814398109,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 77-78 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_77_78.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-77-78-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте d20. Если снова выпала 1, вы так неудачно ударились, пытаясь совершить удар, что ваши ХП опустились до 1. В противном случае получите [Средний] урон от своего оружия.</span></p>",
+      "_id": "qBGzoSLrrEqQAAsN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814546523,
+        "modifiedTime": 1772814613339,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 79-80 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_79_80.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-79-80-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте кости и посчитайте урон от стандартного попадания. Если этого урона хватило бы, чтобы довести ХП цели до 0, это настолько растраивает вас, что вам становится всё равно на происходящее: вы становитесь безразличны ко всем враждебным существам. Это безразличие оканчивается в отношении конкретного существа, если вы атакованы этим существом или вам причинён вред заклинанием. В противном случае вы огорчаетесь не так сильно и вы становитесь безразличны лишь к существу, которое вы пытались атаковать.</span></p>",
+      "_id": "FJr35jzKjYPEARCf",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814707389,
+        "modifiedTime": 1772814746254,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 81-82 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_81_82.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-81-82-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы совершенно неуверены в себе. В течение минуты в начале своего хода киньте d6. Если на кубе выпало 1 - 2, вы пытаетесь выйти из боя, используя Рывок или Отход для этого. Вы можете получать урон, если примите такое решение. Если выпало 3 - 6, вы сами принимаете решение, как действовать.</span></p>",
+      "_id": "KNDgPxdwHvdfOR2a",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 60,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814775974,
+        "modifiedTime": 1772814817605,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 83-84 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_83_84.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-83-84-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы немного разочарованы собой. Получите [Слабый] психического урона.</span></p>",
+      "_id": "9qH7kVXKjgMluMO0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814837351,
+        "modifiedTime": 1772814868635,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 85-86 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_85_86.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-85-86-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы разочарованы собой. Получите [Средний] психического урона.</span></p>",
+      "_id": "hczaEs7LtxfRxXak",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772814876625,
+        "modifiedTime": 1772814923195,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 87-88 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_87_88.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-87-88-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы сильно разочарованы собой. Получите [Сильный] психического урона.</span></p>",
+      "_id": "TqHJUTqg3noq1hzx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815081677,
+        "modifiedTime": 1772815169342,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 89-90 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_89_90.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-89-90-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Промах заставляет вас переосмыслить свою жизнь. До конца длинного отдыха ваше мировоззрение меняется на противоположное. Ваши друзья при этом всё ещё ваши друзья.</span></p>",
+      "_id": "cWJYrX67bQg3PQcG",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815227446,
+        "modifiedTime": 1772815275743,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 91-92 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_91_92.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-91-92-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Ваш выстрел неудачно рекошетит прямо по вашим жизненно важным органам. Количество ваших максимальных хитов уменьшается на [Сильный]. Другое существо может позаботиться об этих ранах, совершая проверку Мудрости (Медицина) (Сл равна 8 + ваш бонус попадания этим оружием) каждые 24 часа на Долгом отдыхе. При успехе верните себе столько единиц максимальных хитов, сколько выпадет на кости ваших хитов (кость хитов при этом не тратится). Количество максимальных хитов не может превысить максимум ваших хитов до применения данного эффекта. Магическое лечение как минимум 6 уровня, такое как Полное исцеление [Heal] и Регенерация [Regenerate], полностью устраняют этот эффект, возвращая максимальное количество ваших хитов на текущем уровне.</span></p>",
+      "_id": "yDEbdOSWmBPuqHxi",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815374671,
+        "modifiedTime": 1772815415688,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 93-94 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_93_94.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-93-94-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы неуверены в себе. После этой атаки следующий урон, который вы получите, конвертируется 1 к 1 в очки неуверенности. Эти очки могут накапливаться. В следующий раз, когда вы попадаете атакой по любой цели, если количество ваших накопленных очков неуверенности больше 0, вы должны уменьшить наносимый этой цели урон на количество, не превышающее имеющихся у вас очков неуверенности. Соответствующее количество очков неуверенности при этом тратится. Все имеющиеся у вас очки неуверенности пропадут на Долгом отдыхе.</span></p>",
+      "_id": "nDtEZPE4XySxrAtN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815440880,
+        "modifiedTime": 1772815483631,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 95-96 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_95_96.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-95-96-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Вы очарованы [Charmed] грациозностью вашей цели. В конце каждого своего хода (включая этот) вы можете совершить Спасбросок Харизмы со сложностью 8 + ваш бонус попадания этим оружием. Эффект очарования прекращается при успехе.</span></p>",
+      "_id": "A5jmGcvwoBHwbc8G",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815508086,
+        "modifiedTime": 1772815567494,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 97-98 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_97_98.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-97-98-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Один случайный союзник, который видит произошедшее, отвлекается на вашу неудачу и получает -2КД до конца своего следующего хода.</span></p>",
+      "_id": "yfaHIJeZ3zQ2oiDD",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "macro.execute",
+          "mode": 0,
+          "value": "ApplyEffectToSelection \"Distracted by Ally\"",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815613517,
+        "modifiedTime": 1772815681117,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    },
+    {
+      "name": "Crit Fail Range 99-100 (You)",
+      "img": "modules/crit-effects-cauldron/icons/range_fail_99_100.png",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "ceEffectId": "ce-crit-fail-range-99-100-(you)",
+          "isConvenient": true,
+          "isBackup": false,
+          "isTemporary": true,
+          "isViewable": true,
+          "isDynamic": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "All",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "description": "<p><span style=\"font-size:13pt;font-family:Arial;font-style:normal\" data-sheets-root=\"1\">Киньте d100 два раза и примените оба эффекта (если значиния одинаковые, эффект применяется только 1 раз).</span></p>",
+      "_id": "e4pe98WEM3poactU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": 1,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.y4i9UIHPJ5yAgqXw",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.3",
+        "createdTime": 1772815692218,
+        "modifiedTime": 1772815733547,
+        "lastModifiedBy": "qVhk7NMxfSxiY964"
+      }
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tihij-mir-v-poiskah-magii",
+      "uuid": "Item.y4i9UIHPJ5yAgqXw",
+      "coreVersion": "13.351",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.3"
+    },
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.3",
+    "createdTime": 1772722264617,
+    "modifiedTime": 1772798813095,
+    "lastModifiedBy": "qVhk7NMxfSxiY964"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

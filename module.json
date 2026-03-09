@@ -1,0 +1,93 @@
+{
+  "id": "crit-effects-cauldron",
+  "title": "Critical Effects Cauldron",
+  "description": "<p>Provides GM with a set of additional critical effects for attack (both successful and failed) and a way to conveniently apply them based on d100.</p>",
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Alex Y",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "crit-effects-cauldron.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-effects-panel",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "critical-effects-cauldron-macros",
+      "label": "CriticalEffectsCauldronMacros",
+      "path": "packs/critical-effects-cauldron-macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "critical-effects-cauldron-actors",
+      "label": "CriticalEffectsCauldronActors",
+      "path": "packs/critical-effects-cauldron-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "critical-effects-cauldron-journal",
+      "label": "CriticalEffectsCauldronJournal",
+      "path": "packs/critical-effects-cauldron-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {}
+}
