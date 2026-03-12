@@ -198,6 +198,7 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
   const fileNames = [
     "crit-monitoring-effects.json",
     "crit-fail-magic.json",
@@ -223,12 +224,14 @@ Hooks.once("ready", async () => {
 });
 
 Hooks.on("canvasReady", async (canvas) => {
+  if (!game.user.isGM) return;
   for (let effectName of EFFECT_NAMES) {
     await ensureEffectOnScene(game.scenes.current, effectName);
   }
 });
 
 Hooks.on("createToken", async (tokenDoc) => {
+  if (!game.user.isGM) return;
   const scene = game.scenes.current;
   if (!scene || tokenDoc.parent?.id !== scene.id) return;
 
@@ -242,7 +245,9 @@ Hooks.on("createToken", async (tokenDoc) => {
     await ensureEffectOnToken(token, sourceEffect, effectName);
   }
 });
+
 if (canvas?.scene) {
+  if (!game.user.isGM) return;
   for (let effectName of EFFECT_NAMES) {
     await ensureEffectOnScene(canvas.scene, effectName);
   }
