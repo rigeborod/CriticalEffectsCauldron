@@ -80,6 +80,9 @@
       "name": "Crit Success Melee 01-02 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-01-02-(you)",
           "isConvenient": true,
@@ -158,6 +161,9 @@
       "name": "Crit Success Melee 03-04 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_03_04.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-03-04-(you)",
           "isConvenient": true,
@@ -236,6 +242,9 @@
       "name": "Crit Success Melee 05-06 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_05_06.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-05-06-(target)",
           "isConvenient": true,
@@ -349,6 +358,9 @@
       "name": "Crit Success Melee 07-08 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_07_08.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-07-08-(target)",
           "isConvenient": true,
@@ -450,6 +462,9 @@
       "name": "Crit Success Melee 09-10 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_09_10.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-09-10-(target)",
           "isConvenient": true,
@@ -528,6 +543,9 @@
       "name": "Crit Success Melee 11-12 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_11_12.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-11-12-(you)",
           "isConvenient": true,
@@ -606,6 +624,9 @@
       "name": "Crit Success Melee 13-14 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-13-14-(target)",
           "isConvenient": true,
@@ -702,6 +723,9 @@
       "name": "Crit Success Melee 15-16 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_15_16.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-15-16-(target)",
           "isConvenient": true,
@@ -787,6 +811,9 @@
       "name": "Crit Success Melee 17-18 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_17_18.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-17-18-(target)",
           "isConvenient": true,
@@ -865,6 +892,9 @@
       "name": "Crit Success Melee 19-20 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_19_20.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-19-20-(target)",
           "isConvenient": true,
@@ -975,6 +1005,9 @@
       "name": "Crit Success Melee 21-22 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_21_22.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-21-22-(target)",
           "isConvenient": true,
@@ -1062,6 +1095,9 @@
       "name": "Crit Success Melee 23-24 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_23_24.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-23-24-(target)",
           "isConvenient": true,
@@ -1114,6 +1150,9 @@
       "name": "Crit Success Melee 25-26 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-25-26-(target)",
           "isConvenient": true,
@@ -1201,6 +1240,9 @@
       "name": "Crit Success Melee 27-28 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_27_28.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-27-28-(you)",
           "isConvenient": true,
@@ -1286,6 +1328,9 @@
       "name": "Crit Success Melee 29-30 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_29_30.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-29-30-(target)",
           "isConvenient": true,
@@ -1371,6 +1416,9 @@
       "name": "Crit Success Melee 31-32 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_31_32.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-31-32-(target)",
           "isConvenient": true,
@@ -1440,6 +1488,9 @@
       "name": "Crit Success Melee 33-34 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_33_34.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-33-34-(target)",
           "isConvenient": true,
@@ -1509,6 +1560,9 @@
       "name": "Crit Success Melee 35-36 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_35_36.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-35-36-(you)",
           "isConvenient": true,
@@ -1596,6 +1650,9 @@
       "name": "Crit Success Melee 37-38 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_37_38.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-37-38-(target)",
           "isConvenient": true,
@@ -1646,6 +1703,9 @@
       "name": "Crit Success Melee 39-40 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_39_40.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-39-40-(target)",
           "isConvenient": true,
@@ -1696,6 +1756,9 @@
       "name": "Crit Success Melee 41-42 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_41_42.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-41-42-(target)",
           "isConvenient": true,
@@ -1776,6 +1839,9 @@
       "name": "Crit Success Melee 43-44 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_43_44.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-43-44-(you)",
           "isConvenient": true,
@@ -1879,6 +1945,9 @@
       "name": "Crit Success Melee 45-46 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_45_46.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-45-46-(you)",
           "isConvenient": true,
@@ -1929,6 +1998,9 @@
       "name": "Crit Success Melee 47-48 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_47_48.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-47-48-(you)",
           "isConvenient": true,
@@ -2007,6 +2079,9 @@
       "name": "Crit Success Melee 49-50 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_49_50.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-49-50-(you)",
           "isConvenient": true,
@@ -2131,6 +2206,9 @@
       "name": "Crit Success Melee 51-52 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_51_52.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-51-52-(you)",
           "isConvenient": true,
@@ -2219,6 +2297,9 @@
       "name": "Crit Success Melee 53-54 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-53-54-(target)",
           "isConvenient": true,
@@ -2276,6 +2357,9 @@
       "name": "Crit Success Melee 55-56 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_55_56.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-55-56-(you)",
           "isConvenient": true,
@@ -2354,6 +2438,9 @@
       "name": "Crit Success Melee 57-58 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_57_58.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-57-58-(you)",
           "isConvenient": true,
@@ -2438,6 +2525,9 @@
       "name": "Crit Success Melee 59-60 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_59_60.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-59-60-(you)",
           "isConvenient": true,
@@ -2488,6 +2578,9 @@
       "name": "Crit Success Melee 61-62 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_61_62.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-61-62-(target)",
           "isConvenient": true,
@@ -2568,6 +2661,9 @@
       "name": "Crit Success Melee 63-64 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_63_64.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-63-64-(target)",
           "isConvenient": true,
@@ -2646,6 +2742,9 @@
       "name": "Crit Success Melee 65-66 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_65_66.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-65-66-(target)",
           "isConvenient": true,
@@ -2726,6 +2825,9 @@
       "name": "Crit Success Melee 67-68 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_67_68.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-67-68-(you)",
           "isConvenient": true,
@@ -2776,6 +2878,9 @@
       "name": "Crit Success Melee 69-70 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_69_70.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-69-70-(target)",
           "isConvenient": true,
@@ -2826,6 +2931,9 @@
       "name": "Crit Success Melee 71-72 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-71-72-(target)",
           "isConvenient": true,
@@ -2908,6 +3016,9 @@
       "name": "Crit Success Melee 73-74 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_73_74.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-73-74-(target)",
           "isConvenient": true,
@@ -2991,6 +3102,9 @@
       "name": "Crit Success Melee 75-76 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_75_76.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-75-76-(target)",
           "isConvenient": true,
@@ -3074,6 +3188,9 @@
       "name": "Crit Success Melee 77-78 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_77_78.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-77-78-(target)",
           "isConvenient": true,
@@ -3158,6 +3275,9 @@
       "name": "Crit Success Melee 79-80 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_79_80.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-79-80-(target)",
           "isConvenient": true,
@@ -3283,6 +3403,9 @@
       "name": "Crit Success Melee 81-82 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_81_82.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-81-82-(target)",
           "isConvenient": true,
@@ -3363,6 +3486,9 @@
       "name": "Crit Success Melee 83-84 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_83_84.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-83-84-(target)",
           "isConvenient": true,
@@ -3450,6 +3576,9 @@
       "name": "Crit Success Melee 85-86 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-85-86-(target)",
           "isConvenient": true,
@@ -3537,6 +3666,9 @@
       "name": "Crit Success Melee 87-88 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_87_88.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-87-88-(target)",
           "isConvenient": true,
@@ -3624,6 +3756,9 @@
       "name": "Crit Success Melee 89-90 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_89_90.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-89-90-(you)",
           "isConvenient": true,
@@ -3702,6 +3837,9 @@
       "name": "Crit Success Melee 91-92 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_91_92.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-91-92-(you)",
           "isConvenient": true,
@@ -3780,6 +3918,9 @@
       "name": "Crit Success Melee 93-94 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_93_94.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-93-94-(you)",
           "isConvenient": true,
@@ -3830,6 +3971,9 @@
       "name": "Crit Success Melee 95-96 (Target)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-95-96-(target)",
           "isConvenient": true,
@@ -3915,6 +4059,9 @@
       "name": "Crit Success Melee 97-98 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-97-98-(you)",
           "isConvenient": true,
@@ -3965,6 +4112,9 @@
       "name": "Crit Success Melee 99-100 (You)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_99_100.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee-99-100-(you)",
           "isConvenient": true,

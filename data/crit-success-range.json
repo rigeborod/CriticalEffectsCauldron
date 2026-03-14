@@ -80,6 +80,9 @@
       "name": "Crit Success Range 01-02 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-01-02-(you)",
           "isConvenient": true,
@@ -158,6 +161,9 @@
       "name": "Crit Success Range 03-04 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_03_04.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-03-04-(you)",
           "isConvenient": true,
@@ -236,6 +242,9 @@
       "name": "Crit Success Range 05-06 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_05_06.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-05-06-(you)",
           "isConvenient": true,
@@ -314,6 +323,9 @@
       "name": "Crit Success Range 07-08 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_07_08.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-07-08-(target)",
           "isConvenient": true,
@@ -415,6 +427,9 @@
       "name": "Crit Success Range 09-10 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_09_10.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-09-10-(target)",
           "isConvenient": true,
@@ -493,6 +508,9 @@
       "name": "Crit Success Range 11-12 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_11_12.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-11-12-(target)",
           "isConvenient": true,
@@ -568,6 +586,9 @@
       "name": "Crit Success Range 13-14 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-13-14-(target)",
           "isConvenient": true,
@@ -663,6 +684,9 @@
       "name": "Crit Success Range 15-16 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_15_16.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-15-16-(target)",
           "isConvenient": true,
@@ -748,6 +772,9 @@
       "name": "Crit Success Range 17-18 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_17_18.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-17-18-(target)",
           "isConvenient": true,
@@ -826,6 +853,9 @@
       "name": "Crit Success Range 19-20 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_19_20.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-19-20-(target)",
           "isConvenient": true,
@@ -936,6 +966,9 @@
       "name": "Crit Success Range 21-22 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_21_22.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-21-22-(you)",
           "isConvenient": true,
@@ -1021,6 +1054,9 @@
       "name": "Crit Success Range 23-24 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_23_24.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-23-24-(target)",
           "isConvenient": true,
@@ -1071,6 +1107,9 @@
       "name": "Crit Success Range 25-26 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-25-26-(target)",
           "isConvenient": true,
@@ -1158,6 +1197,9 @@
       "name": "Crit Success Range 27-28 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_27_28.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-27-28-(you)",
           "isConvenient": true,
@@ -1243,6 +1285,9 @@
       "name": "Crit Success Range 29-30 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_29_30.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-29-30-(target)",
           "isConvenient": true,
@@ -1300,6 +1345,9 @@
       "name": "Crit Success Range 31-32 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_31_32.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-31-32-(target)",
           "isConvenient": true,
@@ -1369,6 +1417,9 @@
       "name": "Crit Success Range 33-34 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_33_34.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-33-34-(target)",
           "isConvenient": true,
@@ -1438,6 +1489,9 @@
       "name": "Crit Success Range 35-36 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_35_36.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-35-36-(you)",
           "isConvenient": true,
@@ -1525,6 +1579,9 @@
       "name": "Crit Success Range 37-38 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_37_38.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-37-38-(target)",
           "isConvenient": true,
@@ -1575,6 +1632,9 @@
       "name": "Crit Success Range 39-40 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_39_40.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-39-40-(target)",
           "isConvenient": true,
@@ -1625,6 +1685,9 @@
       "name": "Crit Success Range 41-42 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_41_42.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-41-42-(target)",
           "isConvenient": true,
@@ -1705,6 +1768,9 @@
       "name": "Crit Success Range 43-44 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_43_44.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-43-44-(you)",
           "isConvenient": true,
@@ -1755,6 +1821,9 @@
       "name": "Crit Success Range 45-46 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_45_46.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-45-46-(you)",
           "isConvenient": true,
@@ -1805,6 +1874,9 @@
       "name": "Crit Success Range 47-48 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_47_48.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-47-48-(you)",
           "isConvenient": true,
@@ -1883,6 +1955,9 @@
       "name": "Crit Success Range 49-50 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_49_50.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-49-50-(you)",
           "isConvenient": true,
@@ -2009,6 +2084,9 @@
       "name": "Crit Success Range 51-52 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_51_52.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-51-52-(you)",
           "isConvenient": true,
@@ -2094,6 +2172,9 @@
       "name": "Crit Success Range 53-54 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-53-54-(target)",
           "isConvenient": true,
@@ -2144,6 +2225,9 @@
       "name": "Crit Success Range 55-56 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_55_56.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-55-56-(you)",
           "isConvenient": true,
@@ -2222,6 +2306,9 @@
       "name": "Crit Success Range 57-58 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_57_58.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-57-58-(you)",
           "isConvenient": true,
@@ -2306,6 +2393,9 @@
       "name": "Crit Success Range 59-60 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_59_60.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-59-60-(you)",
           "isConvenient": true,
@@ -2356,6 +2446,9 @@
       "name": "Crit Success Range 61-62 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_61_62.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-61-62-(target)",
           "isConvenient": true,
@@ -2436,6 +2529,9 @@
       "name": "Crit Success Range 63-64 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_63_64.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-63-64-(target)",
           "isConvenient": true,
@@ -2514,6 +2610,9 @@
       "name": "Crit Success Range 65-66 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_65_66.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-65-66-(target)",
           "isConvenient": true,
@@ -2594,6 +2693,9 @@
       "name": "Crit Success Range 67-68 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_67_68.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-67-68-(you)",
           "isConvenient": true,
@@ -2644,6 +2746,9 @@
       "name": "Crit Success Range 69-70 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_69_70.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-69-70-(target)",
           "isConvenient": true,
@@ -2694,6 +2799,9 @@
       "name": "Crit Success Range 71-72 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-71-72-(target)",
           "isConvenient": true,
@@ -2776,6 +2884,9 @@
       "name": "Crit Success Range 73-74 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_73_74.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-73-74-(target)",
           "isConvenient": true,
@@ -2859,6 +2970,9 @@
       "name": "Crit Success Range 75-76 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_75_76.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-75-76-(target)",
           "isConvenient": true,
@@ -2937,6 +3051,9 @@
       "name": "Crit Success Range 77-78 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_77_78.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-77-78-(target)",
           "isConvenient": true,
@@ -3021,6 +3138,9 @@
       "name": "Crit Success Range 79-80 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_79_80.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-79-80-(target)",
           "isConvenient": true,
@@ -3146,6 +3266,9 @@
       "name": "Crit Success Range 81-82 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_81_82.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-81-82-(target)",
           "isConvenient": true,
@@ -3226,6 +3349,9 @@
       "name": "Crit Success Range 83-84 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_83_84.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-83-84-(target)",
           "isConvenient": true,
@@ -3313,6 +3439,9 @@
       "name": "Crit Success Range 85-86 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-85-86-(target)",
           "isConvenient": true,
@@ -3400,6 +3529,9 @@
       "name": "Crit Success Range 87-88 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_87_88.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-87-88-(target)",
           "isConvenient": true,
@@ -3487,6 +3619,9 @@
       "name": "Crit Success Range 89-90 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_89_90.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-89-90-(you)",
           "isConvenient": true,
@@ -3565,6 +3700,9 @@
       "name": "Crit Success Range 91-92 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_91_92.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-91-92-(you)",
           "isConvenient": true,
@@ -3643,6 +3781,9 @@
       "name": "Crit Success Range 93-94 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_93_94.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-93-94-(you)",
           "isConvenient": true,
@@ -3693,6 +3834,9 @@
       "name": "Crit Success Range 95-96 (Target)",
       "img": "modules/crit-effects-cauldron/icons/range_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-95-96-(target)",
           "isConvenient": true,
@@ -3778,6 +3922,9 @@
       "name": "Crit Success Range 97-98 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-97-98-(you)",
           "isConvenient": true,
@@ -3862,6 +4009,9 @@
       "name": "Crit Success Range 99-100 (You)",
       "img": "modules/crit-effects-cauldron/icons/range_success_99_100.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range-99-100-(you)",
           "isConvenient": true,

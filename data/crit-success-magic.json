@@ -80,6 +80,9 @@
       "name": "Crit Success Magic 01-02 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-01-02-(you)",
           "isConvenient": true,
@@ -158,6 +161,9 @@
       "name": "Crit Success Magic 03-04 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_03_04.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-03-04-(you)",
           "isConvenient": true,
@@ -236,6 +242,9 @@
       "name": "Crit Success Magic 05-06 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_05_06.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-05-06-(target)",
           "isConvenient": true,
@@ -316,6 +325,9 @@
       "name": "Crit Success Magic 07-08 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_07_08.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-07-08-(target)",
           "isConvenient": true,
@@ -396,6 +408,9 @@
       "name": "Crit Success Magic 09-10 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_09_10.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-09-10-(you)",
           "isConvenient": true,
@@ -474,6 +489,9 @@
       "name": "Crit Success Magic 11-12 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_11_12.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-11-12-(you)",
           "isConvenient": true,
@@ -524,6 +542,9 @@
       "name": "Crit Success Magic 13-14 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-13-14-(target)",
           "isConvenient": true,
@@ -619,6 +640,9 @@
       "name": "Crit Success Magic 15-16 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_15_16.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-15-16-(target)",
           "isConvenient": true,
@@ -706,6 +730,9 @@
       "name": "Crit Success Magic 17-18 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_17_18.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-17-18-(target)",
           "isConvenient": true,
@@ -786,6 +813,9 @@
       "name": "Crit Success Magic 19-20 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_19_20.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-19-20-(target)",
           "isConvenient": true,
@@ -893,6 +923,9 @@
       "name": "Crit Success Magic 21-22 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_21_22.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-21-22-(target)",
           "isConvenient": true,
@@ -981,6 +1014,9 @@
       "name": "Crit Success Magic 23-24 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_23_24.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-23-24-(target)",
           "isConvenient": true,
@@ -1031,6 +1067,9 @@
       "name": "Crit Success Magic 25-26 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-25-26-(you)",
           "isConvenient": true,
@@ -1109,6 +1148,9 @@
       "name": "Crit Success Magic 27-28 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_27_28.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-27-28-(you)",
           "isConvenient": true,
@@ -1193,6 +1235,9 @@
       "name": "Crit Success Magic 29-30 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_29_30.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-29-30-(you)",
           "isConvenient": true,
@@ -1278,6 +1323,9 @@
       "name": "Crit Success Magic 31-32 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_31_32.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-31-32-(target)",
           "isConvenient": true,
@@ -1365,6 +1413,9 @@
       "name": "Crit Success Magic 33-34 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_33_34.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-33-34-(you)",
           "isConvenient": true,
@@ -1449,6 +1500,9 @@
       "name": "Crit Success Magic 35-36 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_35_36.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-35-36-(you)",
           "isConvenient": true,
@@ -1527,6 +1581,9 @@
       "name": "Crit Success Magic 37-38 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_37_38.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-37-38-(you)",
           "isConvenient": true,
@@ -1605,6 +1662,9 @@
       "name": "Crit Success Magic 39-40 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_39_40.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-39-40-(you)",
           "isConvenient": true,
@@ -1690,6 +1750,9 @@
       "name": "Crit Success Magic 41-42 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_41_42.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-41-42-(you)",
           "isConvenient": true,
@@ -1768,6 +1831,9 @@
       "name": "Crit Success Magic 43-44 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_43_44.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-43-44-(you)",
           "isConvenient": true,
@@ -1846,6 +1912,9 @@
       "name": "Crit Success Magic 45-46 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_45_46.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-45-46-(you)",
           "isConvenient": true,
@@ -1924,6 +1993,9 @@
       "name": "Crit Success Magic 47-48 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_47_48.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-47-48-(you)",
           "isConvenient": true,
@@ -2002,6 +2074,9 @@
       "name": "Crit Success Magic 49-50 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_49_50.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-49-50-(target)",
           "isConvenient": true,
@@ -2084,6 +2159,9 @@
       "name": "Crit Success Magic 51-52 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_51_52.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-51-52-(you)",
           "isConvenient": true,
@@ -2162,6 +2240,9 @@
       "name": "Crit Success Magic 53-54 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-53-54-(you)",
           "isConvenient": true,
@@ -2240,6 +2321,9 @@
       "name": "Crit Success Magic 55-56 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_55_56.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-55-56-(you)",
           "isConvenient": true,
@@ -2318,6 +2402,9 @@
       "name": "Crit Success Magic 57-58 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_57_58.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-57-58-(you)",
           "isConvenient": true,
@@ -2396,6 +2483,9 @@
       "name": "Crit Success Magic 59-60 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_59_60.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-59-60-(you)",
           "isConvenient": true,
@@ -2474,6 +2564,9 @@
       "name": "Crit Success Magic 61-62 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_61_62.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-61-62-(you)",
           "isConvenient": true,
@@ -2552,6 +2645,9 @@
       "name": "Crit Success Magic 63-64 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_63_64.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-63-64-(you)",
           "isConvenient": true,
@@ -2630,6 +2726,9 @@
       "name": "Crit Success Magic 65-66 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_65_66.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-65-66-(you)",
           "isConvenient": true,
@@ -2708,6 +2807,9 @@
       "name": "Crit Success Magic 67-68 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_67_68.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-67-68-(you)",
           "isConvenient": true,
@@ -2793,6 +2895,9 @@
       "name": "Crit Success Magic 69-70 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_69_70.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-69-70-(you)",
           "isConvenient": true,
@@ -2878,6 +2983,9 @@
       "name": "Crit Success Magic 71-72 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-71-72-(you)",
           "isConvenient": true,
@@ -2964,6 +3072,9 @@
       "name": "Crit Success Magic 73-74 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_73_74.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-73-74-(you)",
           "isConvenient": true,
@@ -3042,6 +3153,9 @@
       "name": "Crit Success Magic 75-76 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_75_76.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-75-76-(target)",
           "isConvenient": true,
@@ -3162,6 +3276,9 @@
       "name": "Crit Success Magic 77-78 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_77_78.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-77-78-(you)",
           "isConvenient": true,
@@ -3240,6 +3357,9 @@
       "name": "Crit Success Magic 79-80 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_79_80.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-79-80-(you)",
           "isConvenient": true,
@@ -3318,6 +3438,9 @@
       "name": "Crit Success Magic 81-82 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_81_82.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-81-82-(target)",
           "isConvenient": true,
@@ -3435,6 +3558,9 @@
       "name": "Crit Success Magic 83-84 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_83_84.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-83-84-(you)",
           "isConvenient": true,
@@ -3513,6 +3639,9 @@
       "name": "Crit Success Magic 85-86 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-85-86-(you)",
           "isConvenient": true,
@@ -3599,6 +3728,9 @@
       "name": "Crit Success Magic 87-88 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_87_88.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-87-88-(target)",
           "isConvenient": true,
@@ -3684,6 +3816,9 @@
       "name": "Crit Success Magic 89-90 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_89_90.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-89-90-(you)",
           "isConvenient": true,
@@ -3762,6 +3897,9 @@
       "name": "Crit Success Magic 91-92 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_91_92.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-91-92-(you)",
           "isConvenient": true,
@@ -3840,6 +3978,9 @@
       "name": "Crit Success Magic 93-94 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_93_94.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-93-94-(you)",
           "isConvenient": true,
@@ -3918,6 +4059,9 @@
       "name": "Crit Success Magic 95-96 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-95-96-(you)",
           "isConvenient": true,
@@ -4003,6 +4147,9 @@
       "name": "Crit Success Magic 97-98 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-97-98-(you)",
           "isConvenient": true,
@@ -4088,6 +4235,9 @@
       "name": "Crit Success Magic 99-100 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_99_100.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic-99-100-(you)",
           "isConvenient": true,

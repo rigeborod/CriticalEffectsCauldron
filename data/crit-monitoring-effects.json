@@ -80,6 +80,9 @@
       "name": "Crit Effect Additional Targets (SR21, SR22)",
       "img": "modules/crit-effects-cauldron/icons/range_success_21_22.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-effect-additional-targets-(sr21,-sr22)",
           "isConvenient": true,
@@ -161,6 +164,9 @@
       "description": "",
       "img": "icons/magic/control/energy-stream-link-large-blue.webp",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-reduce-target-(sma27,-sma28)",
           "isConvenient": true,
@@ -248,6 +254,9 @@
       "name": "Light (Good/Neutral)",
       "img": "modules/crit-effects-cauldron/icons/SMa33_SMa34_light.jpg",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-light-(good/neutral)",
           "isConvenient": true,
@@ -356,6 +365,9 @@
       "name": "Crit Effect Blinded Area 5",
       "img": "modules/dfreds-convenient-effects/images/blinded.svg",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-effect-blinded-area-5",
           "isConvenient": true,
@@ -441,6 +453,9 @@
       "name": "Injured Arm",
       "img": "modules/crit-effects-cauldron/icons/damaged_arm.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-injured-arm",
           "isConvenient": true,
@@ -519,6 +534,9 @@
       "name": "Darkness (Evil/Neutral)",
       "img": "modules/crit-effects-cauldron/icons/SMa33_SMa34_darkness.jpg",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-darkness-(evil/neutral)",
           "isConvenient": true,
@@ -637,6 +655,9 @@
       "name": "Webs Effect 1",
       "img": "modules/crit-effects-cauldron/icons/webs.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-webs-effect-1",
           "isConvenient": true,
@@ -728,6 +749,9 @@
       "name": "Webs Effect 2",
       "img": "modules/crit-effects-cauldron/icons/webs_on_fire.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-webs-effect-2",
           "isConvenient": true,
@@ -813,6 +837,9 @@
       "name": "Webs Effect 3",
       "img": "modules/crit-effects-cauldron/icons/webs_on_fire.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-webs-effect-3",
           "isConvenient": true,
@@ -903,6 +930,9 @@
       "name": "Webbed Terrain (Aura)",
       "img": "modules/crit-effects-cauldron/icons/webs.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-webbed-terrain-(aura)",
           "isConvenient": true,
@@ -988,6 +1018,9 @@
       "name": "Webs Fire (Aura)",
       "img": "modules/crit-effects-cauldron/icons/webs_on_fire.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-webs-fire-(aura)",
           "isConvenient": true,
@@ -1066,6 +1099,9 @@
       "name": "Inside the target (SR97, SR98)",
       "img": "modules/crit-effects-cauldron/icons/range_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-inside-the-target-(sr97,-sr98)",
           "isConvenient": true,
@@ -1144,6 +1180,9 @@
       "name": "Reality Slice (SR97, SR98)",
       "img": "modules/crit-effects-cauldron/icons/range_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-reality-slice-(sr97,-sr98)",
           "isConvenient": true,
@@ -1229,6 +1268,9 @@
       "name": "Reality Slice Controller",
       "img": "modules/crit-effects-cauldron/icons/range_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-reality-slice-controller",
           "isConvenient": true,
@@ -1314,6 +1356,9 @@
       "name": "Flying Sword Info",
       "img": "modules/crit-effects-cauldron/icons/magic_success_67_68.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-flying-sword-info",
           "isConvenient": true,
@@ -1392,6 +1437,9 @@
       "name": "Basilisk Gaze Main",
       "img": "modules/crit-effects-cauldron/icons/gaze.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-basilisk-gaze-main",
           "isConvenient": true,
@@ -1476,6 +1524,9 @@
       "name": "Basilisk Gaze (Successful Save)",
       "img": "modules/crit-effects-cauldron/icons/gaze_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-basilisk-gaze-(successful-save)",
           "isConvenient": true,
@@ -1561,6 +1612,9 @@
       "name": "Basilisk Gaze (Failed Save)",
       "img": "modules/crit-effects-cauldron/icons/gaze_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-basilisk-gaze-(failed-save)",
           "isConvenient": true,
@@ -1646,6 +1700,9 @@
       "name": "Basilisk Gaze Restrained",
       "img": "modules/crit-effects-cauldron/icons/gaze_restrained.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-basilisk-gaze-restrained",
           "isConvenient": true,
@@ -1751,6 +1808,9 @@
       "name": "Basilisk Gaze Petrified",
       "img": "modules/crit-effects-cauldron/icons/gaze_petrified.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-basilisk-gaze-petrified",
           "isConvenient": true,
@@ -1868,6 +1928,9 @@
       "name": "Summon Air Elemental",
       "img": "modules/crit-effects-cauldron/icons/air_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-air-elemental",
           "isConvenient": true,
@@ -1953,6 +2016,9 @@
       "name": "Summon Water Elemental",
       "img": "modules/crit-effects-cauldron/icons/water_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-water-elemental",
           "isConvenient": true,
@@ -2038,6 +2104,9 @@
       "name": "Summon Earth Elemental",
       "img": "modules/crit-effects-cauldron/icons/earth_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-earth-elemental",
           "isConvenient": true,
@@ -2123,6 +2192,9 @@
       "name": "Summon Fire Elemental",
       "img": "modules/crit-effects-cauldron/icons/fire_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-fire-elemental",
           "isConvenient": true,
@@ -2208,6 +2280,9 @@
       "name": "ElementalStatsAir",
       "img": "modules/crit-effects-cauldron/icons/magic_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsair",
           "isConvenient": true,
@@ -2286,6 +2361,9 @@
       "name": "ElementalStatsEarth",
       "img": "modules/crit-effects-cauldron/icons/magic_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsearth",
           "isConvenient": true,
@@ -2364,6 +2442,9 @@
       "name": "ElementalStatsFire",
       "img": "modules/crit-effects-cauldron/icons/magic_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsfire",
           "isConvenient": true,
@@ -2442,6 +2523,9 @@
       "name": "ElementalStatsWater",
       "img": "modules/crit-effects-cauldron/icons/magic_success_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatswater",
           "isConvenient": true,
@@ -2520,6 +2604,9 @@
       "name": "Summon 8 Manes",
       "img": "modules/crit-effects-cauldron/icons/manes.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-8-manes",
           "isConvenient": true,
@@ -2605,6 +2692,9 @@
       "name": "Summon 4 Dretches",
       "img": "modules/crit-effects-cauldron/icons/dretchcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-4-dretches",
           "isConvenient": true,
@@ -2690,6 +2780,9 @@
       "name": "Summon 2 Gnoll Warriors",
       "img": "modules/crit-effects-cauldron/icons/gnollwarriorcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-2-gnoll-warriors",
           "isConvenient": true,
@@ -2775,6 +2868,9 @@
       "name": "Summon 1 Imp",
       "img": "modules/crit-effects-cauldron/icons/impcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-1-imp",
           "isConvenient": true,
@@ -2860,6 +2956,9 @@
       "name": "DemonStats",
       "img": "modules/crit-effects-cauldron/icons/magic_success_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-demonstats",
           "isConvenient": true,
@@ -2938,6 +3037,9 @@
       "name": "SheepCrit",
       "img": "modules/crit-effects-cauldron/icons/sheep.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-sheepcrit",
           "isConvenient": true,
@@ -3023,6 +3125,9 @@
       "name": "SheepCritPermanent",
       "img": "modules/crit-effects-cauldron/icons/sheep.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-sheepcritpermanent",
           "isConvenient": true,
@@ -3108,6 +3213,9 @@
       "name": "DroppedWeaponStats",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-droppedweaponstats",
           "isConvenient": true,
@@ -3186,6 +3294,9 @@
       "name": "Weapon Dropped (FR53, FR54)",
       "img": "modules/crit-effects-cauldron/icons/range_fail_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-dropped-(fr53,-fr54)",
           "isConvenient": true,
@@ -3271,6 +3382,9 @@
       "name": "Weapon not Dropped (FMe01, FMe02)",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-not-dropped-(fme01,-fme02)",
           "isConvenient": true,
@@ -3354,6 +3468,9 @@
       "name": "Sad State",
       "img": "modules/crit-effects-cauldron/icons/sad.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-sad-state",
           "isConvenient": true,
@@ -3469,6 +3586,9 @@
       "name": "Target Alive (SMe57, SMe58, SR57, SR58)",
       "img": "modules/crit-effects-cauldron/icons/better_weapon.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-target-alive-(sme57,-sme58,-sr57,-sr58)",
           "isConvenient": true,
@@ -3547,6 +3667,9 @@
       "name": "Target at 0 (SMe57, SMe58, SR57, SR58)",
       "img": "modules/crit-effects-cauldron/icons/better_weapon.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-target-at-0-(sme57,-sme58,-sr57,-sr58)",
           "isConvenient": true,
@@ -3630,6 +3753,9 @@
       "name": "Target at 0 Bonus (SMe57, SMe58, SR57, SR58)",
       "img": "modules/crit-effects-cauldron/icons/better_weapon.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-target-at-0-bonus-(sme57,-sme58,-sr57,-sr58)",
           "isConvenient": true,
@@ -3733,6 +3859,9 @@
         }
       ],
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-no-eyes-at-all",
           "isConvenient": true,
@@ -3808,6 +3937,9 @@
       "name": "Missing Eye(s)",
       "img": "modules/crit-effects-cauldron/icons/missing_eye.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-missing-eye(s)",
           "isConvenient": true,
@@ -3899,6 +4031,9 @@
       "name": "Attack Advantage (FMe13, FMe14)",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-attack-advantage-(fme13,-fme14)",
           "isConvenient": true,
@@ -3977,6 +4112,9 @@
       "name": "Attack Advantage (FR13, FR14)",
       "img": "modules/crit-effects-cauldron/icons/range_fail_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-attack-advantage-(fr13,-fr14)",
           "isConvenient": true,
@@ -4055,6 +4193,9 @@
       "name": "Bardic Inspiration (SMe95, SMe96)",
       "img": "modules/crit-effects-cauldron/icons/melee_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-bardic-inspiration-(sme95,-sme96)",
           "isConvenient": true,
@@ -4133,6 +4274,9 @@
       "name": "Bardic Inspiration (SR95, SR96)",
       "img": "modules/crit-effects-cauldron/icons/range_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-bardic-inspiration-(sr95,-sr96)",
           "isConvenient": true,
@@ -4211,6 +4355,9 @@
       "name": "Tired",
       "img": "modules/crit-effects-cauldron/icons/tired.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-tired",
           "isConvenient": true,
@@ -4289,6 +4436,9 @@
       "name": "Attack Advantage (SMa95, SMa96)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-attack-advantage-(sma95,-sma96)",
           "isConvenient": true,
@@ -4367,6 +4517,9 @@
       "name": "Attack Advantage (SMa97, SMa98)",
       "img": "modules/crit-effects-cauldron/icons/magic_success_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-attack-advantage-(sma97,-sma98)",
           "isConvenient": true,
@@ -4445,6 +4598,9 @@
       "name": "Hideous Laughter (Crit Source)",
       "img": "modules/crit-effects-cauldron/icons/hideous_laughter.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-hideous-laughter-(crit-source)",
           "isConvenient": true,
@@ -4530,6 +4686,9 @@
       "name": "Hideous Laughter (Crit)",
       "img": "modules/crit-effects-cauldron/icons/hideous_laughter.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-hideous-laughter-(crit)",
           "isConvenient": true,
@@ -4620,6 +4779,9 @@
       "name": "Hideous Laughter (Crit Visible)",
       "img": "modules/crit-effects-cauldron/icons/hideous_laughter.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-hideous-laughter-(crit-visible)",
           "isConvenient": true,
@@ -4698,6 +4860,9 @@
       "name": "Accuracy With Less Damage",
       "img": "modules/crit-effects-cauldron/icons/accuracy_minus_damage.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-accuracy-with-less-damage",
           "isConvenient": true,
@@ -4825,6 +4990,9 @@
       "name": "Distracted by Ally",
       "img": "modules/crit-effects-cauldron/icons/distracted.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-distracted-by-ally",
           "isConvenient": true,
@@ -4912,6 +5080,9 @@
       "name": "Weapon Dropped (FR01, FR02)",
       "img": "modules/crit-effects-cauldron/icons/range_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-dropped-(fr01,-fr02)",
           "isConvenient": true,
@@ -4997,6 +5168,9 @@
       "name": "Weapon not Dropped (FR01, FR02)",
       "img": "modules/crit-effects-cauldron/icons/range_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-not-dropped-(fr01,-fr02)",
           "isConvenient": true,
@@ -5080,6 +5254,9 @@
       "name": "Weapon Dropped (FMe01, FMe02)",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-dropped-(fme01,-fme02)",
           "isConvenient": true,
@@ -5165,6 +5342,9 @@
       "name": "Weapon Dropped (FMe53, FMe54)",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-dropped-(fme53,-fme54)",
           "isConvenient": true,
@@ -5250,6 +5430,9 @@
       "name": "Weapon not Dropped (FR53, FR54)",
       "img": "modules/crit-effects-cauldron/icons/range_fail_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-not-dropped-(fr53,-fr54)",
           "isConvenient": true,
@@ -5333,6 +5516,9 @@
       "name": "Weapon not Dropped (FMe53, FMe54)",
       "img": "modules/crit-effects-cauldron/icons/melee_fail_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-not-dropped-(fme53,-fme54)",
           "isConvenient": true,
@@ -5416,6 +5602,9 @@
       "name": "Accuracy With Less Damage (Magic)",
       "img": "modules/crit-effects-cauldron/icons/accuracy_minus_damage.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-accuracy-with-less-damage-(magic)",
           "isConvenient": true,
@@ -5519,6 +5708,9 @@
       "name": "Weapon Dropped (FMa25, FMa26)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-dropped-(fma25,-fma26)",
           "isConvenient": true,
@@ -5604,6 +5796,9 @@
       "name": "Weapon not Dropped (FMa25, FMa26)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-weapon-not-dropped-(fma25,-fma26)",
           "isConvenient": true,
@@ -5705,6 +5900,9 @@
         }
       ],
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-enlarge-target-(fma27,-fma28)",
           "isConvenient": true,
@@ -5772,6 +5970,9 @@
       "name": "Invisibility for Target (FMa29, FMa30)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_29_30.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-invisibility-for-target-(fma29,-fma30)",
           "isConvenient": true,
@@ -5859,6 +6060,9 @@
       "name": "Summon Air Elemental (Fail)",
       "img": "modules/crit-effects-cauldron/icons/air_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-air-elemental-(fail)",
           "isConvenient": true,
@@ -5944,6 +6148,9 @@
       "name": "Summon Earth Elemental (Fail)",
       "img": "modules/crit-effects-cauldron/icons/earth_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-earth-elemental-(fail)",
           "isConvenient": true,
@@ -6029,6 +6236,9 @@
       "name": "Summon Fire Elemental (Fail)",
       "img": "modules/crit-effects-cauldron/icons/fire_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-fire-elemental-(fail)",
           "isConvenient": true,
@@ -6114,6 +6324,9 @@
       "name": "Summon Water Elemental (Fail)",
       "img": "modules/crit-effects-cauldron/icons/water_elemental.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-water-elemental-(fail)",
           "isConvenient": true,
@@ -6199,6 +6412,9 @@
       "name": "ElementalStatsAirFail",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsairfail",
           "isConvenient": true,
@@ -6277,6 +6493,9 @@
       "name": "ElementalStatsEarthFail",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsearthfail",
           "isConvenient": true,
@@ -6355,6 +6574,9 @@
       "name": "ElementalStatsFireFail",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatsfirefail",
           "isConvenient": true,
@@ -6433,6 +6655,9 @@
       "name": "ElementalStatsWaterFail",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-elementalstatswaterfail",
           "isConvenient": true,
@@ -6511,6 +6736,9 @@
       "name": "Save Advantage",
       "img": "icons/magic/control/buff-flight-wings-blue.webp",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-save-advantage",
           "isConvenient": true,
@@ -6591,6 +6819,9 @@
       "name": "DemonStatsFail",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-demonstatsfail",
           "isConvenient": true,
@@ -6669,6 +6900,9 @@
       "name": "Summon 1 Imp (Fail)",
       "img": "modules/crit-effects-cauldron/icons/impcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-1-imp-(fail)",
           "isConvenient": true,
@@ -6754,6 +6988,9 @@
       "name": "Summon 2 Gnoll Warriors (Fail)",
       "img": "modules/crit-effects-cauldron/icons/gnollwarriorcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-2-gnoll-warriors-(fail)",
           "isConvenient": true,
@@ -6839,6 +7076,9 @@
       "name": "Summon 4 Dretches (Fail)",
       "img": "modules/crit-effects-cauldron/icons/dretchcrit.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-4-dretches-(fail)",
           "isConvenient": true,
@@ -6924,6 +7164,9 @@
       "name": "Summon 8 Manes (Fail)",
       "img": "modules/crit-effects-cauldron/icons/manes.Avatar.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-summon-8-manes-(fail)",
           "isConvenient": true,
@@ -7009,6 +7252,9 @@
       "name": "SealCrit",
       "img": "modules/crit-effects-cauldron/icons/seal.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-sealcrit",
           "isConvenient": true,
@@ -7094,6 +7340,9 @@
       "name": "SealCritPermanent",
       "img": "modules/crit-effects-cauldron/icons/seal.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-sealcritpermanent",
           "isConvenient": true,

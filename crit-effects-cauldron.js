@@ -1,5 +1,28 @@
 const EFFECT_NAMES = ["Crit Fail", "Crit Success"];
 const ALLOW_LINKED_TOKENS = true;
+const MODULE_ID = "crit-effects-cauldron";
+export const CritEffectsCauldron = {
+  savedTargetLevelOrCR: null,
+
+  saveTargetLevelOrCR(targetToken) {
+    this.savedTargetLevelOrCR =
+      targetToken.actor?.system?.details?.cr ??
+      targetToken.actor?.system?.details?.level ??
+      0;
+    this.savedTargetLevelOrCR = Math.floor(this.savedTargetLevelOrCR);
+  },
+
+  getTargetLevelOrCR() {
+    return this.savedTargetLevelOrCR;
+  },
+
+  clearTargetLevelOrCR() {
+    this.savedTargetLevelOrCR = null;
+  }
+};
+
+
+
 
 async function loadEffectFile(path) {
   const response = await fetch(path);
@@ -183,6 +206,47 @@ async function ensureEffectOnScene(scene, effectName) {
     await ensureEffectOnToken(token, sourceEffect, effectName);
   }
 }
+function buildDynamicDescription(effect) {
+  const original = effect.description ?? "";
+  const targetLevelOrCR = CritEffectsCauldron.getTargetLevelOrCR() ?? "undefined";  
+
+  if (targetLevelOrCR === "undefined") return original;
+
+  const lowTemplate = "[Слабый]";
+  let low = lowTemplate;
+  const averageTemplate = "[Средний]";
+  let average = averageTemplate;
+  const highTemplate = "[Сильный]";
+  let high = highTemplate;
+  
+  if (targetLevelOrCR <= 2) {
+    low = "<b>1</b>";
+    average = "<b>2</b>";
+    high = "<b>3</b>";
+  } else if (targetLevelOrCR <= 4) {
+    low = "<b>1d4</b>";
+    average = "<b>1d4 + 1</b>";
+    high = "<b>2d4</b>";
+  } else if (targetLevelOrCR <= 7) {
+    low = "<b>1d6</b>";
+    average = "<b>2d4</b>";
+    high = "<b>2d6</b>";
+  } else if (targetLevelOrCR <= 10) {
+    low = "<b>1d8</b>";
+    average = "<b>2d6</b>";
+    high = "<b>2d8</b>";
+  } else if (targetLevelOrCR <= 15) {
+    low = "<b>1d10</b>";
+    average = "<b>2d6 + 2</b>";
+    high = "<b>2d10</b>";
+  } else if (targetLevelOrCR <= 20) {
+    low = "<b>1d12</b>";
+    average = "<b>2d8</b>";
+    high = "<b>2d12</b>";
+  }
+  
+  return original.replaceAll(lowTemplate, low).replaceAll(averageTemplate, average).replaceAll(highTemplate, high);
+}
 
 
 
@@ -194,6 +258,7 @@ async function ensureEffectOnScene(scene, effectName) {
 
 
 Hooks.once("init", () => {
+  globalThis.CritEffectsCauldron = CritEffectsCauldron;
   console.log("Critical Effects Cauldron module loaded");
 });
 
@@ -246,9 +311,24 @@ Hooks.on("createToken", async (tokenDoc) => {
   }
 });
 
+Hooks.on("preCreateActiveEffect", (effect, data, options, userId) => {
+  if (!effect.getFlag(MODULE_ID, "dynamicDescription")) return;
+
+  const description = buildDynamicDescription(effect);
+
+  effect.updateSource({ description });
+});
+
+
+
+
+
+
+
 if (canvas?.scene) {
-  if (!game.user.isGM) return;
-  for (let effectName of EFFECT_NAMES) {
-    await ensureEffectOnScene(canvas.scene, effectName);
+  if (game.user.isGM) {
+    for (let effectName of EFFECT_NAMES) {
+      await ensureEffectOnScene(canvas.scene, effectName);
+    }
   }
 }

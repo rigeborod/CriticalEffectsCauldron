@@ -80,6 +80,9 @@
       "name": "Crit Fail Magic 01-02 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_01_02.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-01-02-(you)",
           "isConvenient": true,
@@ -158,6 +161,9 @@
       "name": "Crit Fail Magic 03-04 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_03_04.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-03-04-(you)",
           "isConvenient": true,
@@ -243,6 +249,9 @@
       "name": "Crit Fail Magic 05-06 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_05_06.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-05-06-(you)",
           "isConvenient": true,
@@ -321,6 +330,9 @@
       "name": "Crit Fail Magic 07-08 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_07_08.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-07-08-(you)",
           "isConvenient": true,
@@ -399,6 +411,9 @@
       "name": "Crit Fail Magic 09-10 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_09_10.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-09-10-(you)",
           "isConvenient": true,
@@ -496,6 +511,9 @@
       "name": "Crit Fail Magic 11-12 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_11_12.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-11-12-(you)",
           "isConvenient": true,
@@ -574,6 +592,9 @@
       "name": "Crit Fail Magic 13-14 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_13_14.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-13-14-(you)",
           "isConvenient": true,
@@ -667,6 +688,9 @@
       "name": "Crit Fail Magic 15-16 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_15_16.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-15-16-(you)",
           "isConvenient": true,
@@ -754,6 +778,9 @@
       "name": "Crit Fail Magic 17-18 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_17_18.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-17-18-(you)",
           "isConvenient": true,
@@ -832,6 +859,9 @@
       "name": "Crit Fail Magic 19-20 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_19_20.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-19-20-(you)",
           "isConvenient": true,
@@ -935,6 +965,9 @@
       "name": "Crit Fail Magic 21-22 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_21_22.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-21-22-(you)",
           "isConvenient": true,
@@ -1023,6 +1056,9 @@
       "name": "Crit Fail Magic 23-24 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_23_24.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-23-24-(you)",
           "isConvenient": true,
@@ -1101,6 +1137,9 @@
       "name": "Crit Fail Magic 25-26 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_25_26.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-25-26-(you)",
           "isConvenient": true,
@@ -1185,6 +1224,9 @@
       "name": "Crit Fail Magic 27-28 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_27_28.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-27-28-(you)",
           "isConvenient": true,
@@ -1269,6 +1311,9 @@
       "name": "Crit Fail Magic 29-30 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_29_30.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-29-30-(you)",
           "isConvenient": true,
@@ -1354,6 +1399,9 @@
       "name": "Crit Fail Magic 31-32 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_31_32.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-31-32-(you)",
           "isConvenient": true,
@@ -1439,6 +1487,9 @@
       "name": "Crit Fail Magic 33-34 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_33_34.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-33-34-(you)",
           "isConvenient": true,
@@ -1524,6 +1575,9 @@
       "name": "Crit Fail Magic 35-36 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_35_36.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-35-36-(you)",
           "isConvenient": true,
@@ -1615,6 +1669,9 @@
       "name": "Crit Fail Magic 37-38 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_37_38.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-37-38-(you)",
           "isConvenient": true,
@@ -1693,6 +1750,9 @@
       "name": "Crit Fail Magic 39-40 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_39_40.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-39-40-(you)",
           "isConvenient": true,
@@ -1771,6 +1831,9 @@
       "name": "Crit Fail Magic 41-42 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_41_42.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-41-42-(target)",
           "isConvenient": true,
@@ -1849,6 +1912,9 @@
       "name": "Crit Fail Magic 43-44 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_43_44.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-43-44-(you)",
           "isConvenient": true,
@@ -1927,6 +1993,9 @@
       "name": "Crit Fail Magic 45-46 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_45_46.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-45-46-(you)",
           "isConvenient": true,
@@ -2013,6 +2082,9 @@
       "name": "Crit Fail Magic 47-48 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_47_48.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-47-48-(you)",
           "isConvenient": true,
@@ -2091,6 +2163,9 @@
       "name": "Crit Fail Magic 49-50 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_49_50.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-49-50-(you)",
           "isConvenient": true,
@@ -2171,6 +2246,9 @@
       "name": "Crit Fail Magic 51-52 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_51_52.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-51-52-(you)",
           "isConvenient": true,
@@ -2249,6 +2327,9 @@
       "name": "Crit Fail Magic 53-54 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_53_54.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-53-54-(target)",
           "isConvenient": true,
@@ -2327,6 +2408,9 @@
       "name": "Crit Fail Magic 55-56 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_55_56.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-55-56-(target)",
           "isConvenient": true,
@@ -2405,6 +2489,9 @@
       "name": "Crit Fail Magic 57-58 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_57_58.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-57-58-(you)",
           "isConvenient": true,
@@ -2490,6 +2577,9 @@
       "name": "Crit Fail Magic 59-60 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_59_60.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-59-60-(you)",
           "isConvenient": true,
@@ -2575,6 +2665,9 @@
       "name": "Crit Fail Magic 61-62 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_61_62.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-61-62-(you)",
           "isConvenient": true,
@@ -2653,6 +2746,9 @@
       "name": "Crit Fail Magic 63-64 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_63_64.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-63-64-(you)",
           "isConvenient": true,
@@ -2738,6 +2834,9 @@
       "name": "Crit Fail Magic 65-66 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_65_66.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-65-66-(you)",
           "isConvenient": true,
@@ -2816,6 +2915,9 @@
       "name": "Crit Fail Magic 67-68 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_67_68.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-67-68-(you)",
           "isConvenient": true,
@@ -2894,6 +2996,9 @@
       "name": "Crit Fail Magic 69-70 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_69_70.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-69-70-(you)",
           "isConvenient": true,
@@ -2979,6 +3084,9 @@
       "name": "Crit Fail Magic 71-72 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_71_72.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-71-72-(you)",
           "isConvenient": true,
@@ -3065,6 +3173,9 @@
       "name": "Crit Fail Magic 73-74 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_73_74.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-73-74-(you)",
           "isConvenient": true,
@@ -3143,6 +3254,9 @@
       "name": "Crit Fail Magic 75-76 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_75_76.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-75-76-(you)",
           "isConvenient": true,
@@ -3260,6 +3374,9 @@
       "name": "Crit Fail Magic 77-78 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_77_78.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-77-78-(you)",
           "isConvenient": true,
@@ -3338,6 +3455,9 @@
       "name": "Crit Fail Magic 79-80 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_79_80.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-79-80-(you)",
           "isConvenient": true,
@@ -3416,6 +3536,9 @@
       "name": "Crit Fail Magic 81-82 (Target)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_81_82.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-81-82-(target)",
           "isConvenient": true,
@@ -3499,6 +3622,9 @@
       "name": "Crit Fail Magic 83-84 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_83_84.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-83-84-(you)",
           "isConvenient": true,
@@ -3577,6 +3703,9 @@
       "name": "Crit Fail Magic 85-86 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_85_86.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-85-86-(you)",
           "isConvenient": true,
@@ -3663,6 +3792,9 @@
       "name": "Crit Fail Magic 87-88 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_87_88.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-87-88-(you)",
           "isConvenient": true,
@@ -3748,6 +3880,9 @@
       "name": "Crit Fail Magic 89-90 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_89_90.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-89-90-(you)",
           "isConvenient": true,
@@ -3826,6 +3961,9 @@
       "name": "Crit Fail Magic 91-92 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_91_92.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-91-92-(you)",
           "isConvenient": true,
@@ -3911,6 +4049,9 @@
       "name": "Crit Fail Magic 93-94 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_93_94.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-93-94-(you)",
           "isConvenient": true,
@@ -3989,6 +4130,9 @@
       "name": "Crit Fail Magic 95-96 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_95_96.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-95-96-(you)",
           "isConvenient": true,
@@ -4074,6 +4218,9 @@
       "name": "Crit Fail Magic 97-98 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_97_98.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-97-98-(you)",
           "isConvenient": true,
@@ -4159,6 +4306,9 @@
       "name": "Crit Fail Magic 99-100 (You)",
       "img": "modules/crit-effects-cauldron/icons/magic_fail_99_100.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic-99-100-(you)",
           "isConvenient": true,

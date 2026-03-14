@@ -80,6 +80,9 @@
       "name": "Crit Fail Magic",
       "img": "modules/crit-effects-cauldron/icons/magic_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-magic",
           "isConvenient": true,
@@ -165,6 +168,9 @@
       "name": "Crit Fail Actual",
       "img": "modules/crit-effects-cauldron/icons/crit_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-actual",
           "isConvenient": true,
@@ -250,6 +256,9 @@
       "name": "Crit Fail",
       "img": "modules/crit-effects-cauldron/icons/crit_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail",
           "isConvenient": true,
@@ -335,6 +344,9 @@
       "name": "Crit Fail Range",
       "img": "modules/crit-effects-cauldron/icons/range_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-range",
           "isConvenient": true,
@@ -420,6 +432,9 @@
       "name": "Crit Fail Melee",
       "img": "modules/crit-effects-cauldron/icons/melee_fail.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-fail-melee",
           "isConvenient": true,
@@ -505,6 +520,9 @@
       "name": "Crit Success Magic",
       "img": "modules/crit-effects-cauldron/icons/magic_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-magic",
           "isConvenient": true,
@@ -590,6 +608,9 @@
       "name": "Crit Success Melee",
       "img": "modules/crit-effects-cauldron/icons/melee_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-melee",
           "isConvenient": true,
@@ -675,6 +696,9 @@
       "name": "Crit Success Range",
       "img": "modules/crit-effects-cauldron/icons/range_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-range",
           "isConvenient": true,
@@ -760,6 +784,9 @@
       "name": "Crit Success Actual",
       "img": "modules/crit-effects-cauldron/icons/crit_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success-actual",
           "isConvenient": true,
@@ -845,6 +872,9 @@
       "name": "Crit Success",
       "img": "modules/crit-effects-cauldron/icons/crit_success.png",
       "flags": {
+        "crit-effects-cauldron": {
+          "dynamicDescription" : true
+        },
         "dfreds-convenient-effects": {
           "ceEffectId": "ce-crit-success",
           "isConvenient": true,
